@@ -138,7 +138,7 @@
         }}</v-toolbar-title>
       </v-app-bar>
       <v-main id="admin-right-pannel">
-        <v-container class="default-height y-scroll" fluid>
+        <v-container >
           <!-- If using vue-router -->
           <router-view :key="$route.fullPath"></router-view>
         </v-container>
@@ -173,14 +173,14 @@ export default {
           icon: "mdi-view-dashboard",
           text: "Dashboard",
           tabName: "Dashboard",
-          route: "/AdminDashboard",
+          route: "/",
           color: "black",
         },
         {
           icon: "mdi-account",
           text: "Dashboard1",
           tabName: "Tasks",
-          route: "/Tasks",
+          route: "/Tabs2",
           color: "black",
         },
         {

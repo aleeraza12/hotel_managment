@@ -7,9 +7,9 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: "/Admin",
+      path: "/",
       name: "Admin",
-      component: () => import("../src/components/Drawer.vue"),
+      component: () => import("../src/components/BaseLayout/Drawer.vue"),
       meta: {
         requireAuth: true,
         title: "Admin",
@@ -17,7 +17,7 @@ const router = new VueRouter({
       //child components
       children: [
         {
-          path: "/AdminDashboard",
+          path: "/",
           name: "AdminDashboard",
           component: () =>
             import("/src/components/Tabs.vue"),
@@ -25,6 +25,16 @@ const router = new VueRouter({
             title: "Admin Dashboard ",
           },          
         },
+        {
+          path: "/Tabs2",
+          name: "AdminDashboard",
+          component: () =>
+            import("/src/components/Tabs2.vue"),
+          meta: {
+            title: "Admin Dashboard ",
+          },          
+        },
+
       ],
     },
   
