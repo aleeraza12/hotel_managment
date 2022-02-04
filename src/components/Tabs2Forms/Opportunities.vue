@@ -806,3 +806,15 @@ class="my-auto mt-5"
     },
   }
 </script>
+<style scoped>
+.heading {
+  font-size:16px;
+  font-weight: bold;
+}
+.sub-heading {
+  font-size:14px;
+}
+.text-feild{
+  width: 50%;
+}
+</style>
