@@ -1,11 +1,11 @@
 <template>
   <div >
-    <h1 class="mt-3">
+    <div class="mt-3 heading">
       Opportunities
-    </h1>
-    <h5 class="mt-1">
+    </div>
+     <span class="mt-2 sub-heading">
       {{text}}
-    </h5>
+    </span>
 <v-card
 class="my-auto"
     max-width="554"
