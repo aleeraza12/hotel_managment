@@ -4,6 +4,7 @@
      <v-tabs
       v-model="tabs"
       color="black"
+       style="border:1px solid grey"
   >
     <v-tabs-slider color="black"></v-tabs-slider>
     <v-tab>
@@ -41,7 +42,7 @@
     </v-tab>
    </v-tabs>
    </div>
-   <v-tabs-items v-model="tabs">
+   <v-tabs-items v-model="tabs" class="pa-5" style="border:1px solid grey">
           <v-tab-item>
             <OpportunitiesForm></OpportunitiesForm>
           </v-tab-item>
