@@ -4,45 +4,46 @@
      <v-tabs
       v-model="tabs"
       color="black"
-       style="border:1px solid grey"
+       style="border:1px solid #d6d6d6"
+       active-class="active"
   >
-    <v-tabs-slider color="black"></v-tabs-slider>
-    <v-tab>
+    <v-tabs-slider color="white"></v-tabs-slider>
+    <v-tab class="single-tab">
       Opportunities
     </v-tab>
-    <v-tab >
+    <v-tab class="single-tab">
       Amenities
     </v-tab>
-    <v-tab >
+    <v-tab class="single-tab">
       Health and Safety
     </v-tab>
-    <v-tab >
+    <v-tab class="single-tab">
       Location
     </v-tab>
-    <v-tab >
+    <v-tab class="single-tab">
       Description
     </v-tab>
-    <v-tab >
+    <v-tab class="single-tab">
       Contacts
     </v-tab>
-     <v-tab >
+     <v-tab class="single-tab">
       Photos
     </v-tab>
-     <v-tab >
+     <v-tab class="single-tab">
       Rooms and spaces
     </v-tab>
-     <v-tab >
+     <v-tab class="single-tab">
       Rates
     </v-tab>
-     <v-tab >
+     <v-tab class="single-tab">
       Video
     </v-tab>
-    <v-tab >
+    <v-tab class="single-tab">
       Virtual Tours
     </v-tab>
    </v-tabs>
    </div>
-   <v-tabs-items v-model="tabs" class="pa-5" style="border:1px solid grey">
+   <v-tabs-items v-model="tabs" class="pa-5" style="border:1px solid #d6d6d6">
           <v-tab-item>
             <OpportunitiesForm></OpportunitiesForm>
           </v-tab-item>
@@ -121,4 +122,15 @@
     },
   }
    </script>
+   <style scoped>
+   .active {
+     background-color: white !important;
+     color: grey !important;
+   }
+   .single-tab {
+        background-color: #f4f0f0;
+    color: #4242ee94 !important;
+    border: 1px solid #80808033;
+   }
+   </style>
    
