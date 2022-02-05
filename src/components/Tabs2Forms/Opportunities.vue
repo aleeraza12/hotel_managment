@@ -180,7 +180,7 @@
       </div>
     </v-card>
       <!-- 2nd card --> 
-        <v-card
+    <v-card
       class="my-auto mt-5 pa-5"
       max-width="554"
       outlined
@@ -326,146 +326,123 @@
         </v-btn>
       </div>
     </v-card>
-
-
-
-<!-- 3rd Card -->
-<v-card
-class="my-auto mt-5"
-    max-width="554"
-    outlined>
-    <div>
-      <v-icon>
-        mdi-cog
-      </v-icon>
-      <span>Add kitchen and dining amenities</span>
-       <div>
-      Feb 2,2022 . 1 minute to do
-    </div>
-    <div>{{text}}</div>
-    <v-divider></v-divider>
-     <div class="pl-8 pr-8">
-      <v-row class="d-flex">
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red"
-            color="red"
-            value="red"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red darken-3"
-            color="red darken-3"
-            value="s"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-      </v-row>
-    </div> <div class="pl-8 pr-8">
-      <v-row class="d-flex">
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red"
-            color="red"
-            value="red"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red darken-3"
-            color="red darken-3"
-            value="s"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-      </v-row>
-    </div> <div class="pl-8 pr-8">
-      <v-row class="d-flex">
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red"
-            color="red"
-            value="red"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red darken-3"
-            color="red darken-3"
-            value="s"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-      </v-row>
-    </div> <div class="pl-8 pr-8">
-      <v-row class="d-flex">
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red"
-            color="red"
-            value="red"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red darken-3"
-            color="red darken-3"
-            value="s"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-      </v-row>
-    </div> <div class="pl-8 pr-8">
-      <v-row class="d-flex">
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red"
-            color="red"
-            value="red"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red darken-3"
-            color="red darken-3"
-            value="s"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-      </v-row>
-    </div> <div class="pl-8 pr-8">
-      <v-row class="d-flex">
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red"
-            color="red"
-            value="red"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red darken-3"
-            color="red darken-3"
-            value="s"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-      </v-row>
-    </div>
+      <!-- 3rd Card -->
+    <v-card
+      class="my-auto mt-5 pa-5"
+      max-width="554"
+      outlined
+    >
       <div>
-      <v-btn outlined rounded >
+        <v-icon color="primary" dense small >
+          mdi-cog
+        </v-icon>
+        <span class="card-title ml-1 mr-5">
+         Add kitchen and dining amenities
+        </span>
+      </div>
+      <div class="date ml-5">
+        Feb 2,2022 . 1 minute to do
+      </div>
+      <div class="card-body-text ma-3">
+        {{text}}
+      </div>
+      <v-divider></v-divider>
+      <div class="d-flex ml-3 ">
+        <v-checkbox
+          label="red"
+          color="primary"
+          value="red"
+          hide-details    
+        ></v-checkbox>
+        <v-checkbox
+          label="red darken-3"
+          color="red darken-3"
+          value="s"
+          hide-details
+          class="ml-16"
+        ></v-checkbox>
+      </div>
+      <div class="d-flex ml-3 ">
+        <v-checkbox
+          label="red"
+          color="primary"
+          value="red"
+          hide-details    
+        ></v-checkbox>
+        <v-checkbox
+          label="red darken-3"
+          color="red darken-3"
+          value="s"
+          hide-details
+          class="ml-16"
+        ></v-checkbox>
+      </div>
+      <div class="d-flex ml-3 ">
+        <v-checkbox
+          label="red"
+          color="primary"
+          value="red"
+          hide-details    
+        ></v-checkbox>
+        <v-checkbox
+          label="red darken-3"
+          color="red darken-3"
+          value="s"
+          hide-details
+          class="ml-16"
+        ></v-checkbox>
+      </div>
+      <div class="d-flex ml-3 ">
+        <v-checkbox
+          label="red"
+          color="primary"
+          value="red"
+          hide-details    
+        ></v-checkbox>
+        <v-checkbox
+          label="red darken-3"
+          color="red darken-3"
+          value="s"
+          hide-details
+          class="ml-16"
+        ></v-checkbox>
+      </div>
+      <div class="d-flex ml-3 ">
+        <v-checkbox
+          label="red"
+          color="primary"
+          value="red"
+          hide-details    
+        ></v-checkbox>
+        <v-checkbox
+          label="red darken-3"
+          color="red darken-3"
+          value="s"
+          hide-details
+          class="ml-16"
+        ></v-checkbox>
+      </div>
+      <div class="d-flex ml-3 ">
+        <v-checkbox
+          label="red"
+          color="primary"
+          value="red"
+          hide-details    
+        ></v-checkbox>
+        <v-checkbox
+          label="red darken-3"
+          color="red darken-3"
+          value="s"
+          hide-details
+          class="ml-16"
+        ></v-checkbox>
+      </div>
+      <div class="mt-4 ml-5">
+        <v-btn rounded outlined dense small color="primary">
           Save
-      </v-btn>
-    </div>
-    </div>
-</v-card>
+        </v-btn>
+      </div>
+    </v-card>
 <!-- 4th card -->
 <v-card
 class="my-auto mt-5"
