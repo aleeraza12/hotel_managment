@@ -304,36 +304,1035 @@
         </v-col>
       </v-row>
     </div>
+    <div >
+  <v-expansion-panels>
+    <v-expansion-panel
+    >
+      <v-expansion-panel-header>
+        Essential amenities
+      </v-expansion-panel-header>
+      <v-expansion-panel-content>
+         <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+          <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+           <v-select
+              :items="items"
+              label="Fee Type"
+              outlined
+             ></v-select>
+        </v-col>
+        <v-col sm="4" md="4">
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+           <v-select
+              :items="items"
+              label="Fee Type"
+              outlined
+             ></v-select>
+        </v-col>
+        <v-col sm="4" md="4">
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+           <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+        <v-col sm="4" md="4">
+         <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+         
+        </v-col>
+        <v-col sm="4" md="4">
+         <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+      </v-row>
+    </div>
+      <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+        <v-col sm="4" md="4">
+    
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+ <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+        <v-col sm="4" md="4">
+     <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+        </v-col>
+      </v-row>
+    </div>
+      </v-expansion-panel-content>
+    </v-expansion-panel>
+    <!-- 2nd expanssion -->
+     <v-expansion-panel
+    >
+      <v-expansion-panel-header>
+       General
+      </v-expansion-panel-header>
+      <v-expansion-panel-content>
+       
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+ <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+        <v-col sm="4" md="4">
+     <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+ <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+        <v-col sm="4" md="4">
+     <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+    
+        </v-col>
+        <v-col sm="4" md="4">
+     <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div> <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div> <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div> 
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+  
+        </v-col>
+      </v-row>
+    </div>
+    </v-expansion-panel-content>
+    </v-expansion-panel>
+    <!-- 3rd expansion panel -->
+     <v-expansion-panel
+    >
+      <v-expansion-panel-header>
+       Entertainment
+      </v-expansion-panel-header>
+      <v-expansion-panel-content>
+       <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+   <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+     <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+        <v-col sm="4" md="4">
+    
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+    
+        </v-col>
+      </v-row>
+    </div>
 
+      </v-expansion-panel-content>
+    </v-expansion-panel>
+
+    <!-- 4th expansion -->
+     <v-expansion-panel
+    >
+      <v-expansion-panel-header>
+        Office
+      </v-expansion-panel-header>
+      <v-expansion-panel-content>
+       <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+       <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+  </v-expansion-panel-content>
+    </v-expansion-panel>
+    <!-- 5th expansion -->
+     <v-expansion-panel
+    >
+      <v-expansion-panel-header>
+        Pools and spa facilities
+      </v-expansion-panel-header>
+      <v-expansion-panel-content>
+       <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+      <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+         
+        </v-col>
+        <v-col sm="4" md="4">
+         <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+      </v-row>
+    </div>
+      </v-expansion-panel-content>
+    </v-expansion-panel>
+     <v-expansion-panel
+    >
+
+    <!-- 6th expansion -->
+      <v-expansion-panel-header>
+        Outdoor features
+      </v-expansion-panel-header>
+      <v-expansion-panel-content>
+       <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+           <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+        <v-col sm="4" md="4">
+        
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div><div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div><div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          
+        </v-col>
+        <v-col sm="4" md="4">
+         <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+           <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+        <v-col sm="4" md="4">
+         <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+      </v-row>
+    </div>
+  
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+     <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+           <v-text-field
+               outlined
+            label="Amount per night"
+            class="text-feild"
+          ></v-text-field>
+        </v-col>
+        <v-col sm="4" md="4">
+        
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red"
+            color="red"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="red darken-3"
+            color="red darken-3"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+      </v-expansion-panel-content>
+    </v-expansion-panel>
+  </v-expansion-panels>
   </div>
+    </div>
 </template>
-<style scoped>
-.heading {
-  font-size:16px;
-  font-weight: bold;
-}
-.sub-heading {
-  font-size:14px;
-}
-.text-feild{
-  width: 60%;
-}
-.card-title{
-  font-size:14px;
-  font-weight: bold;
-}
-.date {
-  font-size:12px;
-  color: grey;
-}
-.card-body-text {
-  font-size:12px;
-  text-align: justify;
-}
-.select-dropdown {
-  width: 30% !important;
-}
-.adjust-top {
-   margin-top :-3rem
-}
-</style>
