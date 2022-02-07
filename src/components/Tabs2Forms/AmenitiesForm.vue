@@ -1004,7 +1004,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red"
-            color="red"
+            color="primary"
             value="red"
             hide-details
           ></v-checkbox>
@@ -1012,7 +1012,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red darken-3"
-            color="red darken-3"
+            color="primary"
             value="s"
             hide-details
           ></v-checkbox>
@@ -1024,7 +1024,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red"
-            color="red"
+            color="primary"
             value="red"
             hide-details
           ></v-checkbox>
@@ -1032,7 +1032,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red darken-3"
-            color="red darken-3"
+            color="primary"
             value="s"
             hide-details
           ></v-checkbox>
@@ -1044,7 +1044,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red"
-            color="red"
+            color="primary"
             value="red"
             hide-details
           ></v-checkbox>
@@ -1052,7 +1052,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red darken-3"
-            color="red darken-3"
+            color="primary"
             value="s"
             hide-details
           ></v-checkbox>
@@ -1064,7 +1064,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red"
-            color="red"
+            color="primary"
             value="red"
             hide-details
           ></v-checkbox>
@@ -1072,7 +1072,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red darken-3"
-            color="red darken-3"
+            color="primary"
             value="s"
             hide-details
           ></v-checkbox>
@@ -1086,6 +1086,7 @@
         </v-col>
         <v-col sm="4" md="4">
          <v-text-field
+         dense
                outlined
             label="Amount per night"
             class="text-feild"
@@ -1108,7 +1109,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red"
-            color="red"
+            color="primary"
             value="red"
             hide-details
           ></v-checkbox>
@@ -1116,7 +1117,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red darken-3"
-            color="red darken-3"
+            color="primary"
             value="s"
             hide-details
           ></v-checkbox>
@@ -1127,6 +1128,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
            <v-text-field
+           dense
                outlined
             label="Amount per night"
             class="text-feild"
@@ -1142,7 +1144,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red"
-            color="red"
+            color="primary"
             value="red"
             hide-details
           ></v-checkbox>
@@ -1150,7 +1152,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red darken-3"
-            color="red darken-3"
+            color="primary"
             value="s"
             hide-details
           ></v-checkbox>
@@ -1161,7 +1163,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red"
-            color="red"
+            color="primary"
             value="red"
             hide-details
           ></v-checkbox>
@@ -1169,7 +1171,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red darken-3"
-            color="red darken-3"
+            color="primary"
             value="s"
             hide-details
           ></v-checkbox>
@@ -1180,7 +1182,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red"
-            color="red"
+            color="primary"
             value="red"
             hide-details
           ></v-checkbox>
@@ -1188,7 +1190,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red darken-3"
-            color="red darken-3"
+            color="primary"
             value="s"
             hide-details
           ></v-checkbox>
@@ -1202,6 +1204,7 @@
         </v-col>
         <v-col sm="4" md="4">
          <v-text-field
+         dense
                outlined
             label="Amount per night"
             class="text-feild"
@@ -1214,7 +1217,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red"
-            color="red"
+            color="primary"
             value="red"
             hide-details
           ></v-checkbox>
@@ -1222,7 +1225,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red darken-3"
-            color="red darken-3"
+            color="primary"
             value="s"
             hide-details
           ></v-checkbox>
@@ -1234,12 +1237,14 @@
         <v-col sm="4" md="4">
            <v-text-field
                outlined
+               dense
             label="Amount per night"
             class="text-feild"
           ></v-text-field>
         </v-col>
         <v-col sm="4" md="4">
          <v-text-field
+         dense
                outlined
             label="Amount per night"
             class="text-feild"
@@ -1253,7 +1258,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red"
-            color="red"
+            color="primary"
             value="red"
             hide-details
           ></v-checkbox>
@@ -1261,7 +1266,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red darken-3"
-            color="red darken-3"
+            color="primary"
             value="s"
             hide-details
           ></v-checkbox>
@@ -1273,6 +1278,7 @@
         <v-col sm="4" md="4">
            <v-text-field
                outlined
+               dense
             label="Amount per night"
             class="text-feild"
           ></v-text-field>
@@ -1287,7 +1293,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red"
-            color="red"
+            color="primary"
             value="red"
             hide-details
           ></v-checkbox>
@@ -1295,7 +1301,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red darken-3"
-            color="red darken-3"
+            color="primary"
             value="s"
             hide-details
           ></v-checkbox>
@@ -1307,7 +1313,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red"
-            color="red"
+            color="primary"
             value="red"
             hide-details
           ></v-checkbox>
@@ -1315,7 +1321,7 @@
         <v-col sm="4" md="4">
           <v-checkbox
             label="red darken-3"
-            color="red darken-3"
+            color="primary"
             value="s"
             hide-details
           ></v-checkbox>
