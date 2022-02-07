@@ -51,20 +51,20 @@
             <amenities-form></amenities-form>
           </v-tab-item>
           
-          <v-tab-item>
-            <contact-form></contact-form>
+           <v-tab-item>
+            <health-safety-form></health-safety-form>
           </v-tab-item>
           
-          <v-tab-item>
+           <v-tab-item>
+            <location-form></location-form>
+          </v-tab-item>
+          
+           <v-tab-item>
             <description-form></description-form>
           </v-tab-item>
           
           <v-tab-item>
-            <health-safety-form></health-safety-form>
-          </v-tab-item>
-          
-          <v-tab-item>
-            <location-form></location-form>
+            <contact-form></contact-form>
           </v-tab-item>
           
           <v-tab-item>
