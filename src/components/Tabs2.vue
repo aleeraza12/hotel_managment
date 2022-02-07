@@ -4,7 +4,7 @@
      <v-tabs
       v-model="tabs"
       color="black"
-       style="border:1px solid #d6d6d6"
+       style="border:1px solid #d6d6d6 ;height:40px;"
        active-class="active"
   >
     <v-tabs-slider color="white"></v-tabs-slider>
@@ -131,6 +131,7 @@
         background-color: #f4f0f0;
     color: #4242ee94 !important;
     border: 1px solid #80808033;
+    height:40px !important;
    }
    </style>
    
