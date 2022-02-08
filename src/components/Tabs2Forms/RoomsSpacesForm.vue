@@ -166,9 +166,63 @@
             </div>
             <div class="sub-heading">
                 What else should traveler know about your dining spaces?
-                <v-textarea    outlined
+                <v-textarea outlined
             class="text-feild" label="Details"></v-textarea>
             </div>
+        </v-expansion-panel-content>
+    </v-expansion-panel>
+    <v-expansion-panel>
+        <v-expansion-panel-header>
+            Accomodations
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+            <div>
+                <div class="d-flex">
+                    <div>
+                        <v-radio-group v-model="column" column dense>
+                            <v-radio label="Included in price" value="radio-1"></v-radio>
+                            <v-radio label="Booking Possible" value="radio-1"></v-radio>
+                            <v-radio label="Not Available" value="radio-1"></v-radio>
+                        </v-radio-group>
+                        <span>HouseKeeping</span>
+                         <v-radio-group v-model="column" column dense>
+                            <v-radio label="Housekeeper included" value="radio-1"></v-radio>
+                            <v-radio label="Housekeeper optional" value="radio-1"></v-radio>
+                            <v-radio label="Ask owner" value="radio-1"></v-radio>
+                        </v-radio-group>
+                    </div>
+                    <div>
+                        Other services
+                        <v-checkbox label="Car available"></v-checkbox>
+                        <v-checkbox label="Chauffeur"></v-checkbox>
+                        <v-checkbox label="Childcare"></v-checkbox>
+                        <v-checkbox label="Concierge"></v-checkbox>
+                        <v-checkbox label="Massage"></v-checkbox>
+                        <v-checkbox label="Meal delivery"></v-checkbox>
+                        <v-checkbox label="Private chef"></v-checkbox>
+                    </div>
+                </div>
+            </div>
+        </v-expansion-panel-content>
+    </v-expansion-panel>
+    <v-expansion-panel>
+        <v-expansion-panel-header>
+            Themes
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+              <v-checkbox label="Romantic"></v-checkbox>
+              <v-checkbox label="Historic"></v-checkbox>
+              <v-checkbox label="Family"></v-checkbox>
+        </v-expansion-panel-content>
+    </v-expansion-panel>
+    <v-expansion-panel>
+        <v-expansion-panel-header>
+            Additional Info
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+              <v-textarea outlined
+            class="text-feild" label="Details"></v-textarea>
+           
         </v-expansion-panel-content>
     </v-expansion-panel>
          </v-expansion-panels>   
