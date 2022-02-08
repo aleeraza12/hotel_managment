@@ -38,9 +38,9 @@
         </v-expansion-panel-header>
         <v-expansion-panel-content>
             <div>Is your property wheelchair accessible?</div>
-                 <v-radio-group v-model="column" column dense>
-        <v-radio label="Yes, it is accessible" value="radio-1"></v-radio>
-        <v-radio label="No it is not accessible" value="radio-1"></v-radio>
+        <v-radio-group v-model="column" column dense>
+            <v-radio label="Yes, it is accessible" value="radio-1"></v-radio>
+            <v-radio label="No it is not accessible" value="radio-1"></v-radio>
       </v-radio-group>
         </v-expansion-panel-content>
     </v-expansion-panel>
@@ -161,8 +161,25 @@
             </div>
             <div>
                 What else should traveler know about your dining spaces?
-                <v-textarea    outlined
+                <v-textarea outlined
             class="text-feild" label="Details"></v-textarea>
+            </div>
+        </v-expansion-panel-content>
+    </v-expansion-panel>
+    <v-expansion-panel>
+        <v-expansion-panel-header>
+            Accomodations
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+            <div>
+                <div class="d-flex">
+                    <div>
+                        <v-radio-group v-model="column" column dense>
+                            <v-radio label="Included in price" value="radio-1"></v-radio>
+                            <v-radio label="Booking Possible" value="radio-1"></v-radio>
+                        </v-radio-group>
+                    </div>
+                </div>
             </div>
         </v-expansion-panel-content>
     </v-expansion-panel>
