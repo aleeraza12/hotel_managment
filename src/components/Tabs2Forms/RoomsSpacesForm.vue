@@ -207,17 +207,22 @@
     </v-expansion-panel>
     <v-expansion-panel>
         <v-expansion-panel-header>
-            Themes
+         <div class="card-title"> Themes </div>   
         </v-expansion-panel-header>
         <v-expansion-panel-content>
-              <v-checkbox label="Romantic"></v-checkbox>
-              <v-checkbox label="Historic"></v-checkbox>
-              <v-checkbox label="Family"></v-checkbox>
+            <div class="d-flex">
+               <v-checkbox label="Romantic"></v-checkbox>
+              <v-checkbox class="ml-10" label="Historic"></v-checkbox>
+            </div>
+             <div>
+                <v-checkbox label="Family"></v-checkbox>
+             </div>
+             
         </v-expansion-panel-content>
     </v-expansion-panel>
     <v-expansion-panel>
         <v-expansion-panel-header>
-            Additional Info
+         <div class="card-title">Additional Info  </div>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
               <v-textarea outlined
