@@ -146,25 +146,25 @@
     </v-expansion-panel>
     <v-expansion-panel>
         <v-expansion-panel-header>
-            Dining
+          <div class="card-title">Dining</div>  
         </v-expansion-panel-header>
         <v-expansion-panel-content>
             <div>
                 <div class="d-flex">
-                    <div>
+                    <div class="sub-heading">
                         What does your property have?
-                        <v-checkbox label="Dining area"></v-checkbox>
-                        <v-checkbox label="Dining room"></v-checkbox>
-                        <v-checkbox label="Dining table"></v-checkbox>
-                        <v-checkbox label="Childs highchair"></v-checkbox>
+                        <v-checkbox class="margin-top:-2rem" label="Dining area"></v-checkbox>
+                        <v-checkbox class="margin-top:-2rem" label="Dining room"></v-checkbox>
+                        <v-checkbox class="margin-top:-2rem" label="Dining table"></v-checkbox>
+                        <v-checkbox class="margin-top:-2rem" label="Childs highchair"></v-checkbox>
                     </div>
-                    <div>
+                    <div class="sub-heading ml-16">
                         How many people does your dining space seat comfortably?
                          <v-select class="mb-0" dense small :items="items3" label="Coste" outlined></v-select>
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="sub-heading">
                 What else should traveler know about your dining spaces?
                 <v-textarea outlined
             class="text-feild" label="Details"></v-textarea>
@@ -173,26 +173,26 @@
     </v-expansion-panel>
     <v-expansion-panel>
         <v-expansion-panel-header>
-            Accomodations
+         <div class="card-title"> Accomodations</div>  
         </v-expansion-panel-header>
         <v-expansion-panel-content>
             <div>
                 <div class="d-flex">
-                    <div>
+                    <div style="margin-top:0rem;">
                         <v-radio-group v-model="column" column dense>
                             <v-radio label="Included in price" value="radio-1"></v-radio>
                             <v-radio label="Booking Possible" value="radio-1"></v-radio>
                             <v-radio label="Not Available" value="radio-1"></v-radio>
                         </v-radio-group>
-                        <span>HouseKeeping</span>
+                        <div class="card-title">HouseKeeping</div>
                          <v-radio-group v-model="column" column dense>
                             <v-radio label="Housekeeper included" value="radio-1"></v-radio>
                             <v-radio label="Housekeeper optional" value="radio-1"></v-radio>
                             <v-radio label="Ask owner" value="radio-1"></v-radio>
                         </v-radio-group>
                     </div>
-                    <div>
-                        Other services
+                    <div class="ml-16">
+                       <div class="card-title"> Other services </div>
                         <v-checkbox label="Car available"></v-checkbox>
                         <v-checkbox label="Chauffeur"></v-checkbox>
                         <v-checkbox label="Childcare"></v-checkbox>
@@ -207,17 +207,22 @@
     </v-expansion-panel>
     <v-expansion-panel>
         <v-expansion-panel-header>
-            Themes
+         <div class="card-title"> Themes </div>   
         </v-expansion-panel-header>
         <v-expansion-panel-content>
-              <v-checkbox label="Romantic"></v-checkbox>
-              <v-checkbox label="Historic"></v-checkbox>
-              <v-checkbox label="Family"></v-checkbox>
+            <div class="d-flex">
+               <v-checkbox label="Romantic"></v-checkbox>
+              <v-checkbox class="ml-10" label="Historic"></v-checkbox>
+            </div>
+             <div>
+                <v-checkbox label="Family"></v-checkbox>
+             </div>
+             
         </v-expansion-panel-content>
     </v-expansion-panel>
     <v-expansion-panel>
         <v-expansion-panel-header>
-            Additional Info
+         <div class="card-title">Additional Info  </div>
         </v-expansion-panel-header>
         <v-expansion-panel-content>
               <v-textarea outlined
