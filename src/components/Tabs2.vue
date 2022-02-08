@@ -62,7 +62,7 @@
            <v-tab-item>
             <description-form></description-form>
           </v-tab-item>
-          
+
           <v-tab-item>
             <contact-form></contact-form>
           </v-tab-item>
@@ -71,13 +71,14 @@
             <photos-form></photos-form>
           </v-tab-item>
           
+           <v-tab-item>
+            <rooms-spaces-form></rooms-spaces-form>
+          </v-tab-item>
+          
           <v-tab-item>
             <rates-form></rates-form>
           </v-tab-item>
           
-          <v-tab-item>
-            <rooms-spaces-form></rooms-spaces-form>
-          </v-tab-item>
           <v-tab-item>
             <video-form></video-form>
           </v-tab-item>
