@@ -146,25 +146,25 @@
     </v-expansion-panel>
     <v-expansion-panel>
         <v-expansion-panel-header>
-            Dining
+          <div class="card-title">Dining</div>  
         </v-expansion-panel-header>
         <v-expansion-panel-content>
             <div>
                 <div class="d-flex">
-                    <div>
+                    <div class="sub-heading">
                         What does your property have?
-                        <v-checkbox label="Dining area"></v-checkbox>
-                        <v-checkbox label="Dining room"></v-checkbox>
-                        <v-checkbox label="Dining table"></v-checkbox>
-                        <v-checkbox label="Childs highchair"></v-checkbox>
+                        <v-checkbox class="margin-top:-2rem" label="Dining area"></v-checkbox>
+                        <v-checkbox class="margin-top:-2rem" label="Dining room"></v-checkbox>
+                        <v-checkbox class="margin-top:-2rem" label="Dining table"></v-checkbox>
+                        <v-checkbox class="margin-top:-2rem" label="Childs highchair"></v-checkbox>
                     </div>
-                    <div>
+                    <div class="sub-heading ml-16">
                         How many people does your dining space seat comfortably?
                          <v-select class="mb-0" dense small :items="items3" label="Coste" outlined></v-select>
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="sub-heading">
                 What else should traveler know about your dining spaces?
                 <v-textarea    outlined
             class="text-feild" label="Details"></v-textarea>
