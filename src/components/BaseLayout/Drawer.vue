@@ -225,34 +225,7 @@ export default {
           route: "/Query",
           color: "black",
         },
-        {
-          icon: "mdi-wechat",
-          text: "Dashboard8",
-          tabName: "Customer Support Board",
-          route: "/Csr",
-          color: "black",
-        },
-        {
-          icon: "mdi-account-cog-outline",
-          text: "Settings",
-          tabName: "Settings",
-          route: "/UserSettings",
-          color: "black",
-        },
-        {
-          icon: "mdi-account",
-          text: "Dashboard9",
-          tabName: "Transactions",
-          route: "/transactions",
-          color: "black",
-        },
-        {
-          icon: "mdi-account",
-          text: "Dashboard10",
-          tabName: "Ongoing Task Board",
-          route: "/OngoingTask",
-          color: "black",
-        },
+  
       ],
     };
   },
