@@ -173,26 +173,26 @@
     </v-expansion-panel>
     <v-expansion-panel>
         <v-expansion-panel-header>
-            Accomodations
+         <div class="card-title"> Accomodations</div>  
         </v-expansion-panel-header>
         <v-expansion-panel-content>
             <div>
                 <div class="d-flex">
-                    <div>
+                    <div style="margin-top:0rem;">
                         <v-radio-group v-model="column" column dense>
                             <v-radio label="Included in price" value="radio-1"></v-radio>
                             <v-radio label="Booking Possible" value="radio-1"></v-radio>
                             <v-radio label="Not Available" value="radio-1"></v-radio>
                         </v-radio-group>
-                        <span>HouseKeeping</span>
+                        <div class="card-title">HouseKeeping</div>
                          <v-radio-group v-model="column" column dense>
                             <v-radio label="Housekeeper included" value="radio-1"></v-radio>
                             <v-radio label="Housekeeper optional" value="radio-1"></v-radio>
                             <v-radio label="Ask owner" value="radio-1"></v-radio>
                         </v-radio-group>
                     </div>
-                    <div>
-                        Other services
+                    <div class="ml-16">
+                       <div class="card-title"> Other services </div>
                         <v-checkbox label="Car available"></v-checkbox>
                         <v-checkbox label="Chauffeur"></v-checkbox>
                         <v-checkbox label="Childcare"></v-checkbox>
