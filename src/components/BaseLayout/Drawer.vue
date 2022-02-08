@@ -14,13 +14,14 @@
         >
           <!-- Moody Logo -->
           <div
-            class="d-flex justify-start align-center px-2"
+            class="d-flex justify-center align-center"
             style="height: 70px"
           >
             <img
               v-if="getSidebarMini"
-              height="40px"
-              width="40px"
+              src="../../assets/download (1).png"
+              height="120px"
+              width="120px"
              
               alt="logo"
             />
@@ -86,29 +87,6 @@
               <v-spacer> </v-spacer>
               
             </v-list-item>
-            <v-list-item
-              class="nav-hover"
-              @click="navigateToLB()"
-            >
-              <div id="navigate-icon">
-                <v-icon class="mr-7 py-4" color="black"
-                  >mdi-account-switch</v-icon
-                >
-                <v-tooltip
-                  content-class="arrow-left"
-                  v-if="getSidebarMini"
-                  activator="#navigate-icon"
-                  nudge-right="2"
-                  right
-                  color="#ffe7b8"
-                >
-                  <span class="black--text">Navigate to Labeling system</span>
-                </v-tooltip>
-              </div>
-              <div class="text-capitalize body-2 font-weight-bold">
-                <span>Navigate to LB</span>
-              </div>
-            </v-list-item>
             <!-- Logout -->
           </div>
         </v-card>
@@ -133,9 +111,9 @@
           v-if="$route.path == '/MessageArea'"
           >mdi-headset-dock</v-icon
         >
-        <v-toolbar-title id="admin-rightpannel-header-title">{{
+        <!--<v-toolbar-title id="admin-rightpannel-header-title">{{
           titleName
-        }}</v-toolbar-title>
+        }}</v-toolbar-title>-->
       </v-app-bar>
       <v-main id="admin-right-pannel">
         <v-container >
@@ -268,15 +246,6 @@ export default {
     }
   },
   methods: {
-    /**
-     * @Description
-     * this function is used to redirect to labelling system
-     * @param format
-     * @return void
-     */
-    navigateToLB() {
-      this.$store.dispatch("navigateToLB");
-    },
     /**
      * @Description
      * this function is used to toogle sidebar
