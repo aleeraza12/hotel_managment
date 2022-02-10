@@ -18,20 +18,72 @@ const router = new VueRouter({
       children: [
         {
           path: "/",
-          name: "AdminDashboard",
+          name: "Admin",
           component: () =>
-            import("/src/components/Tabs.vue"),
+            import("/src/components/Dashboard.vue"),
           meta: {
-            title: "Admin Dashboard ",
+            title: "Admin Dashboard",
           },          
         },
         {
-          path: "/Tabs2",
-          name: "AdminDashboard",
+          path: "/Inbox",
+          name: "Inbox",
           component: () =>
-            import("/src/components/Tabs2.vue"),
+            import("/src/components/Inbox.vue"),
           meta: {
-            title: "Admin Dashboard ",
+            title: "Inbox ",
+          },          
+        },
+        {
+          path: "/Calender",
+          name: "Calender",
+          component: () =>
+            import("/src/components/Calender.vue"),
+          meta: {
+            title: "Calender",
+          },          
+        },
+        {
+          path: "/MarketMaker",
+          name: "MarketMaker",
+          component: () =>
+            import("/src/components/MarketMaker.vue"),
+          meta: {
+            title: "MarketMaker",
+          },          
+        },
+        {
+          path: "/ReservationManager",
+          name: "ReservationManager",
+          component: () =>
+            import("/src/components/ReservationManager.vue"),
+          meta: {
+            title: "ReservationManager",
+          },          
+        },
+        {
+          path: "/Performance",
+          name: "Performance",
+          component: () =>
+            import("/src/components/Performance.vue"),
+          meta: {
+            title: "Performance",
+          },          
+        },
+        {
+          path: "/Property",
+          name: "Property",
+          component: () => import("/src/components/PropertyForms/FormTabs.vue"),
+          meta: {
+            title: "Property",
+          },          
+        },
+        {
+          path: "/LocalLaws",
+          name: "LocalLaws",
+          component: () => import("/src/components/LocalLaws.vue"),
+          meta: {
+            title: "LocalLaws",
           },          
         },
 

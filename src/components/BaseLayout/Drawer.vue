@@ -82,6 +82,13 @@
                   v-if="link.text != 'Logout'"
                 >
                   {{ link.text }}
+                    <v-chip v-if="link.tabName=='Performance'" class="ml-5" x-small color="primary">
+                      New
+                </v-chip>
+              
+                    <v-chip v-if="link.tabName=='Local laws'" class="ml-5" x-small color="primary">
+                      Beta
+                </v-chip>
                 </span>
               </div>
               <v-spacer> </v-spacer>
@@ -111,9 +118,15 @@
           v-if="$route.path == '/MessageArea'"
           >mdi-headset-dock</v-icon
         >
-        <!--<v-toolbar-title id="admin-rightpannel-header-title">{{
-          titleName
-        }}</v-toolbar-title>-->
+        <v-toolbar-title id="admin-rightpannel-header-title">{{
+          
+        }}</v-toolbar-title>
+        <v-spacer></v-spacer>
+        <div class="mb-0 pb-0">
+          <v-icon class="mr-3">mdi-bell</v-icon>
+          <span>My Account</span><v-icon class="ml-1 mr-5">mdi-chevron-down</v-icon>
+          Help<v-icon class="ml-1 mr-5">mdi-chevron-down</v-icon>
+        </div>
       </v-app-bar>
       <v-main id="admin-right-pannel">
         <v-container >
@@ -157,50 +170,50 @@ export default {
         {
           icon: "mdi-email-outline",
           text: "Inbox",
-          tabName: "Tasks",
-          route: "/Tabs2",
+          tabName: "Inbox",
+          route: "/Inbox",
           color: "black",
         },
         {
           icon: "mdi-calendar-text",
           text: "Calender",
-          tabName: "Products",
-          route: "/Products",
+          tabName: "Calender",
+          route: "/Calender",
           color: "black",
         },
         {
           icon: "mdi-chart-line-stacked",
           text: "MarketMaker",
-          tabName: "Taskers",
-          route: "/Taskers",
+          tabName: "MarketMaker",
+          route: "/MarketMaker",
           color: "black",
         },
         {
           icon: "mdi-content-save",
           text: "Reservation manager",
-          tabName: "Customers",
-          route: "/Posters",
+          tabName: "ReservationManager",
+          route: "/ReservationManager",
           color: "black",
         },
         {
           icon: "mdi-chart-bar",
           text: "Performance",
-          tabName: "Manage Rates",
-          route: "/Rates",
+          tabName: "Performance",
+          route: "/Performance",
           color: "black",
         },
         {
           icon: "mdi-home",
           text: "Property",
-          tabName: "Finance Board",
-          route: "/FinanceTable",
+          tabName: "Property",
+          route: "/Property",
           color: "black",
         },
         {
           icon: "mdi-gavel",
           text: "Local laws",
-          tabName: "Customer Support",
-          route: "/Query",
+          tabName: "LocalLaws",
+          route: "/LocalLaws",
           color: "black",
         },
   

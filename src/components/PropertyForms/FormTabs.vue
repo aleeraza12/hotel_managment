@@ -3,11 +3,11 @@
     <div>
      <v-tabs
       v-model="tabs"
-      color="black"
-       style="border:1px solid #d6d6d6 ;height:40px;"
+       fixed-tabs
+       style="border:1px solid #d6d6d6;height:28px;"
        active-class="active"
   >
-    <v-tabs-slider color="white"></v-tabs-slider>
+    <!--<v-tabs-slider color="white"></v-tabs-slider>-->
     <v-tab class="single-tab">
       Opportunities
     </v-tab>
@@ -90,17 +90,17 @@
 </div>
    </template>
    <script>
-   import OpportunitiesForm from '../components/Tabs2Forms/Opportunities.vue'
-   import AmenitiesForm from '../components/Tabs2Forms/AmenitiesForm.vue'
-   import ContactForm from '../components/Tabs2Forms/ContactsForm.vue'
-   import DescriptionForm from '../components/Tabs2Forms/DescriptionForm.vue'
-   import HealthSafetyForm from '../components/Tabs2Forms/HealthSafetyForm.vue'
-   import LocationForm from '../components/Tabs2Forms/LocationForm.vue'
-   import PhotosForm from '../components/Tabs2Forms/PhotosForm.vue'
-   import RatesForm from '../components/Tabs2Forms/RatesForm.vue'
-   import RoomsSpacesForm from '../components/Tabs2Forms/RoomsSpacesForm.vue'
-   import VideoForm from '../components/Tabs2Forms/VideoForm.vue'
-   import VirtualTourForm from '../components/Tabs2Forms/VirtualTourForm.vue'
+   import OpportunitiesForm from '../PropertyForms/Opportunities.vue'
+   import AmenitiesForm from '../PropertyForms/AmenitiesForm.vue'
+   import ContactForm from '../PropertyForms/ContactsForm.vue'
+   import DescriptionForm from '../PropertyForms/DescriptionForm.vue'
+   import HealthSafetyForm from '../PropertyForms/HealthSafetyForm.vue'
+   import LocationForm from '../PropertyForms/LocationForm.vue'
+   import PhotosForm from '../PropertyForms/PhotosForm.vue'
+   import RatesForm from '../PropertyForms/RatesForm.vue'
+   import RoomsSpacesForm from '../PropertyForms/RoomsSpacesForm.vue'
+   import VideoForm from '../PropertyForms/VideoForm.vue'
+   import VirtualTourForm from '../PropertyForms/VirtualTourForm.vue'
    export default {
      components:{
        OpportunitiesForm,
@@ -129,10 +129,15 @@
      color: grey !important;
    }
    .single-tab {
-        background-color: #f4f0f0;
+     font-weight: 12px !important;
+     font-size: 11px !important;
+    background-color: #f4f0f0;
     color: #4242ee94 !important;
     border: 1px solid #80808033;
-    height:40px !important;
+    height: 28px !important;
+   }
+   .v-tab {
+     text-transform: capitalize;
    }
    </style>
    

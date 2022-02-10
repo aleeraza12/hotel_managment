@@ -54,13 +54,13 @@
       </div>
       <div style="margin-top:-2rem" class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Television"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Travel crib"
           color="red darken-3"
           value="s"
           hide-details
@@ -69,13 +69,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Dishes"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Desk"
           color="red darken-3"
           value="s"
           hide-details
@@ -84,13 +84,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Desk chair"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Smart TV"
           color="red darken-3"
           value="s"
           hide-details
@@ -99,13 +99,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Cabinet locks"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Baby monitor"
           color="red darken-3"
           value="s"
           hide-details
@@ -114,13 +114,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Dining table"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Printer"
           color="red darken-3"
           value="s"
           hide-details
@@ -129,13 +129,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Books for kids"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Kitchen island"
           color="red darken-3"
           value="s"
           hide-details
@@ -144,13 +144,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Meal delivery"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Outdoor play area"
           color="red darken-3"
           value="s"
           hide-details
@@ -159,13 +159,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Fenced pool"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Fenced yard"
           color="red darken-3"
           value="s"
           hide-details
@@ -202,13 +202,13 @@
       <v-divider></v-divider>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Linens provided"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Heating"
           color="red darken-3"
           value="s"
           hide-details
@@ -217,13 +217,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Fitness room equipment"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Toilet paper"
           color="red darken-3"
           value="s"
           hide-details
@@ -232,13 +232,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Hair Dryer"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Basics soaps"
           color="red darken-3"
           value="s"
           hide-details
@@ -247,13 +247,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Air conditioning"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Clothes Dryer"
           color="red darken-3"
           value="s"
           hide-details
@@ -262,13 +262,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Coin loundry"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Towels Provided"
           color="red darken-3"
           value="s"
           hide-details
@@ -277,50 +277,20 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Iron & Board"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Washing machine"
           color="red darken-3"
           value="s"
           hide-details
           class="ml-16"
         ></v-checkbox>
       </div>
-      <div class="d-flex ml-3 ">
-        <v-checkbox
-          label="red"
-          color="primary"
-          value="red"
-          hide-details    
-        ></v-checkbox>
-        <v-checkbox
-          label="red darken-3"
-          color="red darken-3"
-          value="s"
-          hide-details
-          class="ml-16"
-        ></v-checkbox>
-      </div>
-      <div class="d-flex ml-3 ">
-        <v-checkbox
-          label="red"
-          color="primary"
-          value="red"
-          hide-details    
-        ></v-checkbox>
-        <v-checkbox
-          label="red darken-3"
-          color="red darken-3"
-          value="s"
-          hide-details
-          class="ml-16"
-        ></v-checkbox>
-      </div>  
-      <div class="mt-4 ml-5">
+            <div class="mt-4 ml-5">
         <v-btn rounded outlined dense small color="primary">
           Save
         </v-btn>
@@ -349,13 +319,13 @@
       <v-divider></v-divider>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Kitchen"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Toaster"
           color="red darken-3"
           value="s"
           hide-details
@@ -364,13 +334,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Blender"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Dishwasher"
           color="red darken-3"
           value="s"
           hide-details
@@ -379,13 +349,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Microwave"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Ice maker"
           color="red darken-3"
           value="s"
           hide-details
@@ -394,13 +364,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Lobister Pot"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Coffee Maker"
           color="red darken-3"
           value="s"
           hide-details
@@ -409,13 +379,13 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Pantry items"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Grill"
           color="red darken-3"
           value="s"
           hide-details
@@ -424,13 +394,43 @@
       </div>
       <div class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Oven"
           color="primary"
           value="red"
           hide-details    
         ></v-checkbox>
         <v-checkbox
-          label="red darken-3"
+          label="Stove"
+          color="red darken-3"
+          value="s"
+          hide-details
+          class="ml-16"
+        ></v-checkbox>
+      </div>
+      <div class="d-flex ml-3 ">
+        <v-checkbox
+          label="Kettle"
+          color="primary"
+          value="red"
+          hide-details    
+        ></v-checkbox>
+        <v-checkbox
+          label="Kitchenette"
+          color="red darken-3"
+          value="s"
+          hide-details
+          class="ml-16"
+        ></v-checkbox>
+      </div>
+      <div class="d-flex ml-3 ">
+        <v-checkbox
+          label="Coffee Grinder"
+          color="primary"
+          value="red"
+          hide-details    
+        ></v-checkbox>
+        <v-checkbox
+          label="Refrigerator"
           color="red darken-3"
           value="s"
           hide-details
@@ -466,7 +466,7 @@
       <v-divider></v-divider>
       <div  class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Fire pit"
           color="primary"
           value="red"
           hide-details    
@@ -474,7 +474,7 @@
       </div>
       <div  class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Lawn|Garden"
           color="primary"
           value="red"
           hide-details    
@@ -482,7 +482,7 @@
       </div>
       <div  class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Deck|Patio"
           color="primary"
           value="red"
           hide-details    
@@ -490,7 +490,7 @@
       </div>
       <div  class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Balcony"
           color="primary"
           value="red"
           hide-details    
@@ -498,7 +498,7 @@
       </div>
       <div  class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Game Room"
           color="primary"
           value="red"
           hide-details    
@@ -506,15 +506,7 @@
       </div>
       <div  class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
-          color="primary"
-          value="red"
-          hide-details    
-        ></v-checkbox>
-      </div>
-      <div  class="d-flex ml-3 ">
-        <v-checkbox
-          label="red"
+          label="Pool"
           color="primary"
           value="red"
           hide-details    
@@ -570,7 +562,7 @@
       </div>
       <div style="margin-top:-2rem" class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="EV car charger"
           color="primary"
           value="red"
           hide-details    
@@ -578,7 +570,7 @@
       </div>
       <div  class="d-flex ml-3 ">
         <v-checkbox
-          label="red"
+          label="Garage"
           color="primary"
           value="red"
           hide-details    

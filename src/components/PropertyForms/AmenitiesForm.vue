@@ -9,7 +9,7 @@
           <v-checkbox
           small
           dense
-            label="red"
+            label="Kitchen"
             color="primary"
             value="red"
             hide-details
@@ -19,7 +19,7 @@
           <v-checkbox
           small
           dense
-            label="red darken-3"
+            label="Toaster"
             color="primary"
             value="s"
             hide-details
@@ -51,7 +51,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Blender"
             color="primary"
             value="red"
             hide-details
@@ -59,7 +59,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Dishwasher"
             color="primary"
             value="s"
             hide-details
@@ -84,7 +84,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Disher & utensils for kids"
             color="primary"
             value="red"
             hide-details
@@ -92,7 +92,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Microwave"
             color="primary"
             value="s"
             hide-details
@@ -117,7 +117,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Ice Maker"
             color="primary"
             value="red"
             hide-details
@@ -125,7 +125,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Lobster Pot"
             color="primary"
             value="s"
             hide-details
@@ -137,7 +137,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Coffee Maker"
             color="primary"
             value="red"
             hide-details
@@ -145,7 +145,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Pantry Items"
             color="primary"
             value="s"
             hide-details
@@ -177,7 +177,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Grill"
             color="primary"
             value="red"
             hide-details
@@ -185,7 +185,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Dining table"
             color="primary"
             value="s"
             hide-details
@@ -197,7 +197,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Oven"
             color="primary"
             value="red"
             hide-details
@@ -205,28 +205,8 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Kitchen island"
             color="primary"
-            value="s"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-      </v-row>
-    </div>
-     <div class="pl-8 pr-8">
-      <v-row class="d-flex">
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red"
-            color="red"
-            value="red"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red darken-3"
-            color="red darken-3"
             value="s"
             hide-details
           ></v-checkbox>
@@ -238,7 +218,7 @@
         <v-col sm="4" md="4">
          <v-text-field
                outlined
-            label="Amount per night"
+            label="Kitchen"
             class="text-feild"
           ></v-text-field>
         </v-col>
@@ -250,7 +230,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Stove"
             color="primary"
             value="red"
             hide-details
@@ -258,7 +238,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Coffee grinder"
             color="primary"
             value="s"
             hide-details
@@ -270,7 +250,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Kitchenette"
             color="primary"
             value="red"
             hide-details
@@ -278,7 +258,27 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Kettle"
+            color="primary"
+            value="s"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+      </v-row>
+    </div>
+    <div class="pl-8 pr-8">
+      <v-row class="d-flex">
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="Refrigerator"
+            color="primary"
+            value="red"
+            hide-details
+          ></v-checkbox>
+        </v-col>
+        <v-col sm="4" md="4">
+          <v-checkbox
+            label="Disher & Utensils"
             color="primary"
             value="s"
             hide-details
@@ -316,7 +316,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Wireless Internet"
             color="primary"
             value="red"
             hide-details
@@ -324,7 +324,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Toilet Paper"
             color="primary"
             value="s"
             hide-details
@@ -342,7 +342,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Towels provided"
             color="primary"
             value="red"
             hide-details
@@ -350,7 +350,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Linen provided"
             color="primary"
             value="s"
             hide-details
@@ -382,7 +382,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Basic Soaps"
             color="primary"
             value="red"
             hide-details
@@ -390,7 +390,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Washing machine"
             color="primary"
             value="s"
             hide-details
@@ -417,7 +417,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Clothes Dryer"
             color="primary"
             value="red"
             hide-details
@@ -425,7 +425,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Coin laundry"
             color="primary"
             value="s"
             hide-details
@@ -452,7 +452,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Hair Dryer"
             color="primary"
             value="red"
             hide-details
@@ -460,7 +460,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Iron & Board"
             color="primary"
             value="s"
             hide-details
@@ -472,7 +472,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Air conditioning"
             color="primary"
             value="red"
             hide-details
@@ -480,7 +480,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Heating"
             color="primary"
             value="s"
             hide-details
@@ -512,7 +512,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Fitness Room Equipment"
             color="primary"
             value="red"
             hide-details
@@ -536,7 +536,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Fireplace"
             color="red"
             value="red"
             hide-details
@@ -544,7 +544,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Garage"
             color="red darken-3"
             value="s"
             hide-details
@@ -576,7 +576,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Internet"
             color="primary"
             value="red"
             hide-details
@@ -584,7 +584,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Living room"
             color="primary"
             value="s"
             hide-details
@@ -616,7 +616,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="EV car charger"
             color="prrimary"
             value="red"
             hide-details
@@ -624,7 +624,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Parking"
             color="primary"
             value="s"
             hide-details
@@ -651,7 +651,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Paper towels"
             color="primary"
             value="red"
             hide-details
@@ -659,7 +659,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Telephone"
             color="primary"
             value="s"
             hide-details
@@ -670,7 +670,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Travel crib"
             color="primary"
             value="red"
             hide-details
@@ -678,7 +678,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Safe"
             color="primary"
             value="s"
             hide-details
@@ -689,7 +689,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Baby monitor"
             color="primary"
             value="red"
             hide-details
@@ -697,7 +697,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Baby gate"
             color="primary"
             value="s"
             hide-details
@@ -709,7 +709,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Shampoo"
             color="primary"
             value="red"
             hide-details
@@ -717,7 +717,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Fax"
             color="primary"
             value="s"
             hide-details
@@ -729,7 +729,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Wood Stove"
             color="primary"
             value="red"
             hide-details
@@ -753,7 +753,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Video Games"
             color="primary"
             value="red"
             hide-details
@@ -761,7 +761,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Television"
             color="primary"
             value="s"
             hide-details
@@ -788,7 +788,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Stereo"
             color="primary"
             value="red"
             hide-details
@@ -796,7 +796,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Toys"
             color="primary"
             value="s"
             hide-details
@@ -808,7 +808,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Games for kids"
             color="primary"
             value="red"
             hide-details
@@ -816,7 +816,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Books"
             color="primary"
             value="s"
             hide-details
@@ -828,7 +828,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Game room"
             color="primary"
             value="red"
             hide-details
@@ -836,7 +836,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Video Library"
             color="primary"
             value="s"
             hide-details
@@ -848,7 +848,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Smart TV"
             color="primary"
             value="red"
             hide-details
@@ -856,7 +856,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Foosball"
             color="primary"
             value="s"
             hide-details
@@ -868,7 +868,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="DVD Player"
             color="primary"
             value="red"
             hide-details
@@ -876,7 +876,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Satellite|Cable"
             color="primary"
             value="s"
             hide-details
@@ -888,7 +888,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Ping Pong Table"
             color="primary"
             value="red"
             hide-details
@@ -896,7 +896,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Games"
             color="primary"
             value="s"
             hide-details
@@ -908,27 +908,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
-            color="primary"
-            value="red"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red darken-3"
-            color="primary"
-            value="s"
-            hide-details
-          ></v-checkbox>
-        </v-col>
-      </v-row>
-    </div>
-     <div class="pl-8 pr-8">
-      <v-row class="d-flex">
-        <v-col sm="4" md="4">
-          <v-checkbox
-            label="red"
+            label="Books For kids"
             color="primary"
             value="red"
             hide-details
@@ -954,7 +934,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Computer Monitor"
             color="primary"
             value="red"
             hide-details
@@ -962,7 +942,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Printer"
             color="primary"
             value="s"
             hide-details
@@ -974,7 +954,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Desk"
             color="primary"
             value="red"
             hide-details
@@ -982,7 +962,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Desk chair"
             color="primary"
             value="s"
             hide-details
@@ -1003,7 +983,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Outdoor pool"
             color="primary"
             value="red"
             hide-details
@@ -1011,7 +991,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Private pool"
             color="primary"
             value="s"
             hide-details
@@ -1023,7 +1003,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Spit whirlpool"
             color="primary"
             value="red"
             hide-details
@@ -1031,7 +1011,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="indoor pool"
             color="primary"
             value="s"
             hide-details
@@ -1043,7 +1023,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Heated Pool"
             color="primary"
             value="red"
             hide-details
@@ -1051,7 +1031,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Pool"
             color="primary"
             value="s"
             hide-details
@@ -1063,7 +1043,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Sauna"
             color="primary"
             value="red"
             hide-details
@@ -1071,7 +1051,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Communal Pool"
             color="primary"
             value="s"
             hide-details
@@ -1108,7 +1088,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Golf"
             color="primary"
             value="red"
             hide-details
@@ -1116,7 +1096,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Beach Charts"
             color="primary"
             value="s"
             hide-details
@@ -1143,7 +1123,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Outdoor furniture"
             color="primary"
             value="red"
             hide-details
@@ -1151,7 +1131,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Free pit"
             color="primary"
             value="s"
             hide-details
@@ -1162,7 +1142,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Balcony"
             color="primary"
             value="red"
             hide-details
@@ -1170,7 +1150,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Beech Towels"
             color="primary"
             value="s"
             hide-details
@@ -1181,7 +1161,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Kayak"
             color="primary"
             value="red"
             hide-details
@@ -1189,7 +1169,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Dock/Patio"
             color="primary"
             value="s"
             hide-details
@@ -1216,7 +1196,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Tennis"
             color="primary"
             value="red"
             hide-details
@@ -1224,7 +1204,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Lawn|Garden"
             color="primary"
             value="s"
             hide-details
@@ -1257,7 +1237,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Ski & Snowboard"
             color="primary"
             value="red"
             hide-details
@@ -1265,7 +1245,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Outdoor play area"
             color="primary"
             value="s"
             hide-details
@@ -1292,7 +1272,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Porch/Veranda"
             color="primary"
             value="red"
             hide-details
@@ -1300,7 +1280,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Bicycles"
             color="primary"
             value="s"
             hide-details
@@ -1312,7 +1292,7 @@
       <v-row class="d-flex">
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red"
+            label="Water sports gear"
             color="primary"
             value="red"
             hide-details
@@ -1320,7 +1300,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
-            label="red darken-3"
+            label="Boat"
             color="primary"
             value="s"
             hide-details
