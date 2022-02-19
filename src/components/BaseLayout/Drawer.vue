@@ -38,47 +38,35 @@
           <div
             id="sidebar-list"
             class="mt-10 pointer y-scroll"
-            style="height: 75vh"
+            style="height: 82vh"
             v-if="links != ''"
           >
+           <v-list>
+        <v-divider
+        ></v-divider>
             <v-list-item
               class="d-flex align-center pl-4 nav-hover"
-              :class="titleName == link.text ? 'selected-route' : ''"
+              :class="titleName == link.tabName ? 'selected-route' : ''"
               id="left-nav-listitem"
               v-for="(link, i) in links"
               :key="i"
               router
-              @mouseover="getColor(link, titleName, i)"
-              @mouseleave="
-                titleName == link.text
-                  ? (links[i].color = 'blue')
-                  : (links[i].color = 'black')
-              "
               :to="link.route"
             >
               <!-- Sidebar Icons -->
               <div :id="link.icon">
                 <v-icon
                   class="mr-7 py-4"
-                  :color="titleName == link.text ? 'blue' : 'black'"
+                  :color="titleName == link.tabName ? 'blue' : 'black'"
                   v-text="link.icon"
                   size="25"
                 ></v-icon>
               </div>
-              <v-tooltip
-                content-class="arrow-left"
-                v-if="getSidebarMini"
-                :activator="'#' + link.icon"
-                nudge-right="1"
-                right
-                color="#ffe7b8"
-              >
-                <span class="black--text"> {{ link.text }} </span>
-              </v-tooltip>
               <!-- Sidebar Text -->
               <div v-show="!getSidebarMini || drawer" id="left-nav-list-text">
                 <span
                   class="text-capitalize body-2 font-weight-bold"
+                  :class="titleName == link.tabName ? 'selected-tab': ''"
                   v-if="link.text != 'Logout'"
                 >
                   {{ link.text }}
@@ -86,14 +74,16 @@
                       New
                 </v-chip>
               
-                    <v-chip v-if="link.tabName=='Local laws'" class="ml-5" x-small color="primary">
+                    <v-chip v-if="link.tabName=='LocalLaws'" class="ml-5" x-small color="primary">
                       Beta
                 </v-chip>
                 </span>
               </div>
               <v-spacer> </v-spacer>
-              
             </v-list-item>
+               <v-divider ></v-divider>
+           </v-list>
+
             <!-- Logout -->
           </div>
         </v-card>
@@ -241,18 +231,15 @@ export default {
   },
   updated() {
     for (let i in this.links) {
+        if(this.$route.name == 'Admin'){
+         this.titleName = 'Dashboard'
+      }
       if (this.links[i].route == "/" + this.$route.name) {
         this.titleName = this.links[i].tabName;
-        console.log("color is fetched",this.titleName);
-        this.links.forEach((element) => {
-          element.tabName == this.titleName
-            ? (element.color = "white")
-            : (element.color = "black");
-        });
       }
     }
+     //if internet is not connected
     if (navigator.onLine === false) {
-      //if internet is not connected
       eventBus.$emit("snackbarMsg", {
         message: "No internet connection",
         color: "red",
@@ -356,5 +343,11 @@ export default {
 }
 .shadow-app-bar {
   background-color: rgb(0 0 0 / 75%) !important;
+}
+.selected-tab{
+  color: #2196F3 !important;
+}
+.selected-route{
+  border-left: 5px solid #2196F3;
 }
 </style>

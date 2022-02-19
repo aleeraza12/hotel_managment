@@ -86,7 +86,14 @@ const router = new VueRouter({
             title: "LocalLaws",
           },          
         },
-
+        {
+          path: "/BaseRates",
+          name: "BaseRates",
+          component: () => import("/src/components/Tabs.vue"),
+          meta: {
+            title: "Base Rates and Discounts",
+          },          
+        },
       ],
     },
   
