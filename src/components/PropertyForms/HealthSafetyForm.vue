@@ -75,10 +75,15 @@
     <v-divider></v-divider>
     <div class="mt-4 heading">
       Home safety features
+      <div>
+        <span style="font-size: 11px">
+          {{text}}
+        </span>
+      </div>
     </div>
     <div>
       <v-checkbox
-            label="abc"
+            label="Exterior lighting"
             color="primary"
             value="abc"
             hide-details
@@ -86,7 +91,7 @@
     </div>
     <div>
       <v-checkbox
-            label="abc"
+            label="Deadbolt lock"
             color="primary"
             value="abc"
             hide-details
@@ -94,7 +99,7 @@
     </div>
     <div>
       <v-checkbox
-            label="abc"
+            label="Smoke detector"
             color="primary"
             value="abc"
             hide-details
@@ -104,14 +109,13 @@
                <v-text-field
                outlined
                dense
-            label="Amount per night"
-          
+            label="above stars"          
             class="text-feild mt-2"
           ></v-text-field>
       </div>
     <div>
       <v-checkbox
-            label="abc"
+            label="Carbon monoxide detector"
             color="primary"
             value="abc"
             hide-details
@@ -120,14 +124,14 @@
       <div class="">
                <v-text-field
                outlined
-            label="Amount per night"
+            label="Off of kitchen"
               dense
             class="text-feild mt-2"
           ></v-text-field>
       </div>
        <div>
       <v-checkbox
-            label="abc"
+            label="Fire extinguisher"
             color="primary"
             value="abc"
             hide-details
@@ -137,14 +141,14 @@
                <v-text-field
                dense
                outlined
-            label="Amount per night"
+            label="Under sink"
           
             class="text-feild mt-2"
           ></v-text-field>
       </div>
       <div>
       <v-checkbox
-            label="abc"
+            label="First and kit"
             color="primary"
             value="abc"
             hide-details
@@ -153,7 +157,7 @@
        <div class="">
                <v-text-field
                outlined
-            label="Amount per night"
+            label="Loundry room"
           dense
             class="text-feild mt-2"
           ></v-text-field>
@@ -161,7 +165,7 @@
         <div>
       <v-checkbox
             label="abc"
-            color="primary"
+            color="Fenced pool"
             value="abc"
             hide-details
           ></v-checkbox>
@@ -170,7 +174,7 @@
      <v-textarea class="mt-5 sub-heading"
           outlined
           name="input-7-4"
-          value="The Woodman set to work at once, and so sharp was his axe that the tree was soon chopped nearly through."
+          value="Back or Front door or garage"
         ></v-textarea>
          </div>
          <div class="card-title">Emergency phone number
@@ -195,6 +199,19 @@
          </div>
   </div>
 </template>
+<script>
+  export default {
+    components:{
+      
+    },
+    data () {
+      return {
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+          items: ['Foo', 'Bar', 'Fizz', 'Buzz'],
+      }
+    },
+  }
+</script>
 <style scoped>
 .heading {
   font-size:16px;

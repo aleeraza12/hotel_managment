@@ -334,7 +334,7 @@
     </div>
       <div class=" mt-5 ml-10 select-dropdown">
         <span class="card-title">Cost</span>
-        <v-select class="mb-0" dense small :items="items" label="Coste" outlined></v-select>
+        <v-select class="mb-0" dense small :items="items" label="Cost" outlined></v-select>
         <span class="card-title">Speed</span>
         <v-select class="mb-0" dense small  :items="items" label="Speed" outlined></v-select>
       </div>

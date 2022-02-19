@@ -13,12 +13,12 @@
       </v-expansion-panel-header>
       <v-expansion-panel-content>
         <div>
-        <v-select class="mb-0 select-dropdown" dense small :items="items" label="Coste" outlined></v-select>
+        <v-select class="mb-0 select-dropdown" dense small :items="items" label="Cost" outlined></v-select>
          </div>
          <div class="card-title">Living area</div>
              <div class="d-flex">
            <div >
-        <v-select style="width:50%" class="mb-0" dense small :items="items" label="Coste" outlined></v-select>
+        <v-select style="width:50%" class="mb-0" dense small :items="items" label="Cost" outlined></v-select>
         </div>
         <div style="width:100%">
          <v-text-field
@@ -160,7 +160,7 @@
                     </div>
                     <div class="sub-heading ml-16">
                         How many people does your dining space seat comfortably?
-                         <v-select class="mb-0" dense small :items="items3" label="Coste" outlined></v-select>
+                         <v-select class="mb-0" dense small :items="items3" label="Cost" outlined></v-select>
                     </div>
                 </div>
             </div>

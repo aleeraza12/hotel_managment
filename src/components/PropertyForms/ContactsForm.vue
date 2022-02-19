@@ -12,7 +12,7 @@
             <div class="card-title">Contact selector</div>
         <div class="d-flex">
           <div>
-              <v-select class="mb-0" dense small :items="items" label="Coste" outlined></v-select>
+              <v-select class="mb-0" dense small :items="items" label="Cost" outlined></v-select>
           </div>
       
         <v-btn class="ml-5 mt-2" color="primary" dense small rounded>Add new contact</v-btn>
@@ -47,7 +47,7 @@
 
          <div class="d-flex">
            <div>
-        <v-select style="width:45%" class="mb-0" dense small :items="items" label="Coste" outlined></v-select>
+        <v-select style="width:45%" class="mb-0" dense small :items="items" label="Cost" outlined></v-select>
         </div>
         <div style="width:100%">
          <v-text-field
@@ -78,7 +78,7 @@
         <v-btn small dense color="success" class="mb-5">Verified</v-btn>
         <div class="d-flex">
            <div>
-        <v-select style="width:45%" class="mb-0" dense small :items="items" label="Coste" outlined></v-select>
+        <v-select style="width:45%" class="mb-0" dense small :items="items" label="Cost" outlined></v-select>
         </div>
         <div style="width:100%">
          <v-text-field
