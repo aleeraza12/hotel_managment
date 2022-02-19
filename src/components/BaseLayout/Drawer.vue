@@ -51,7 +51,7 @@
               @mouseover="getColor(link, titleName, i)"
               @mouseleave="
                 titleName == link.text
-                  ? (links[i].color = 'black')
+                  ? (links[i].color = 'blue')
                   : (links[i].color = 'black')
               "
               :to="link.route"
@@ -60,7 +60,7 @@
               <div :id="link.icon">
                 <v-icon
                   class="mr-7 py-4"
-                  color="black"
+                  :color="titleName == link.text ? 'blue' : 'black'"
                   v-text="link.icon"
                   size="25"
                 ></v-icon>
@@ -243,6 +243,7 @@ export default {
     for (let i in this.links) {
       if (this.links[i].route == "/" + this.$route.name) {
         this.titleName = this.links[i].tabName;
+        console.log("color is fetched",this.titleName);
         this.links.forEach((element) => {
           element.tabName == this.titleName
             ? (element.color = "white")
