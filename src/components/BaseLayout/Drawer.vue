@@ -139,9 +139,9 @@ export default {
       isMapModalSet: false,
       mini_variant: this.$vuetify.breakpoint.xs ? false : true,
       showable_links: [],
-      loggedInUserDetail: JSON.parse(
-        localStorage.getItem("loggedInUserDetail")
-      ),
+      // loggedInUserDetail: JSON.parse(
+      //   localStorage.getItem("loggedInUserDetail")
+      // ),
       titleName: "",
       drawer:
         this.$vuetify.breakpoint.name == "md" ||
