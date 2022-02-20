@@ -4,8 +4,11 @@
      <v-tabs
       v-model="tabs"
        fixed-tabs
-       style="border:1px solid #d6d6d6;height:28px;"
+       style="border:1px solid #d6d6d6;height:50px;"
        active-class="active"
+        next-icon="mdi-arrow-right-bold-box-outline"
+      prev-icon="mdi-arrow-left-bold-box-outline"
+      show-arrows
   >
     <!--<v-tabs-slider color="white"></v-tabs-slider>-->
     <v-tab class="single-tab">
@@ -134,7 +137,7 @@
     background-color: #f4f0f0;
     color: #4242ee94 !important;
     border: 1px solid #80808033;
-    height: 28px !important;
+    height: 48px !important;
    }
    .v-tab {
      text-transform: capitalize;
