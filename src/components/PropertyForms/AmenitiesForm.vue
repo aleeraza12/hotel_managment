@@ -1,8 +1,12 @@
 <template>
   <div>
-    <div class="heading">
+     <div>
+    <v-card  class="elevation-5 mb-5">
+      <v-card-text>
+      
+    <v-card-title class="heading">
       Kitchen and dining
-    </div>
+    </v-card-title>
     <div class="pl-8 pr-8">
       <v-row class="d-flex">
         <v-col sm="4" md="4">
@@ -23,6 +27,7 @@
             color="primary"
             value="s"
             hide-details
+            style="margin-left:10rem"
           ></v-checkbox>
         </v-col>
       </v-row>
@@ -37,10 +42,11 @@
             class="text-feild fonts"
           ></v-text-field>
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
          <v-text-field
-               outlined
-               dense
+          style="margin-left:10rem"
+            outlined
+            dense
             label="Amount per night"
             class="text-feild fonts"
           ></v-text-field>
@@ -63,6 +69,7 @@
             color="primary"
             value="s"
             hide-details
+             style="margin-left:10rem"
           ></v-checkbox>
         </v-col>
       </v-row>
@@ -70,8 +77,9 @@
     <div class="pl-8 pr-8">
       <v-row class="d-flex">
         <v-col sm="4" md="4"> </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
          <v-text-field
+          style="margin-left:10rem"
          dense
                outlined
             label="Amount per night"
@@ -96,6 +104,7 @@
             color="primary"
             value="s"
             hide-details
+             style="margin-left:10rem"
           ></v-checkbox>
         </v-col>
       </v-row>
@@ -103,8 +112,9 @@
     <div class="pl-8 pr-8">
       <v-row class="d-flex">
         <v-col sm="4" md="4"> </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
          <v-text-field
+          style="margin-left:10rem"
          dense
                outlined
             label="Amount per night"
@@ -125,6 +135,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+           style="margin-left:10rem"
             label="Lobster Pot"
             color="primary"
             value="s"
@@ -145,6 +156,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+           style="margin-left:10rem"
             label="Pantry Items"
             color="primary"
             value="s"
@@ -163,8 +175,9 @@
             class="text-feild"
           ></v-text-field>
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
         <v-text-field
+         style="margin-left:10rem"
         dense
                outlined
             label="Amount per night"
@@ -185,6 +198,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+           style="margin-left:10rem"
             label="Dining table"
             color="primary"
             value="s"
@@ -205,6 +219,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+           style="margin-left:10rem"
             label="Kitchen island"
             color="primary"
             value="s"
@@ -238,6 +253,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+           style="margin-left:10rem"
             label="Coffee grinder"
             color="primary"
             value="s"
@@ -258,6 +274,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+           style="margin-left:10rem"
             label="Kettle"
             color="primary"
             value="s"
@@ -276,12 +293,13 @@
             hide-details
           ></v-checkbox>
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
           <v-checkbox
             label="Disher & Utensils"
             color="primary"
             value="s"
             hide-details
+             style="margin-left:10rem"
           ></v-checkbox>
         </v-col>
       </v-row>
@@ -295,8 +313,9 @@
             class="text-feild"
           ></v-text-field>
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
         <v-text-field
+           style="margin-left:10rem"
                outlined
             label="Amount per night"
             class="text-feild"
@@ -304,6 +323,9 @@
         </v-col>
       </v-row>
     </div>
+    </v-card-text>
+    </v-card>
+     </div>
     <div >
   <v-expansion-panels>
     <v-expansion-panel
@@ -324,6 +346,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Toilet Paper"
             color="primary"
             value="s"
@@ -350,6 +373,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Linen provided"
             color="primary"
             value="s"
@@ -368,8 +392,9 @@
             dense
           ></v-text-field>
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
          <v-text-field
+           style="margin-left:10rem"
                outlined
             label="Amount per night"
             class="text-feild"
@@ -388,8 +413,9 @@
             hide-details
           ></v-checkbox>
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
           <v-checkbox
+            style="margin-left:10rem"
             label="Washing machine"
             color="primary"
             value="s"
@@ -403,8 +429,9 @@
         <v-col sm="4" md="4">
          
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
          <v-text-field
+           style="margin-left:10rem"
                outlined
             label="Amount per night"
             class="text-feild"
@@ -425,6 +452,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Coin laundry"
             color="primary"
             value="s"
@@ -460,6 +488,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Iron & Board"
             color="primary"
             value="s"
@@ -480,6 +509,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Heating"
             color="primary"
             value="s"
@@ -498,8 +528,9 @@
             dense
           ></v-text-field>
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
      <v-text-field
+       style="margin-left:10rem"
                outlined
             label="Amount per night"
             class="text-feild"
@@ -544,6 +575,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Garage"
             color="red darken-3"
             value="s"
@@ -562,8 +594,9 @@
             class="text-feild"
           ></v-text-field>
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
      <v-text-field
+       style="margin-left:10rem"
                outlined
                dense
             label="Amount per night"
@@ -584,6 +617,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Living room"
             color="primary"
             value="s"
@@ -602,8 +636,9 @@
             class="text-feild"
           ></v-text-field>
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
      <v-text-field
+       style="margin-left:10rem"
      dense
                outlined
             label="Amount per night"
@@ -624,6 +659,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Parking"
             color="primary"
             value="s"
@@ -637,8 +673,9 @@
         <v-col sm="4" md="4">
     
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
      <v-text-field
+       style="margin-left:10rem"
                outlined
                dense
             label="Amount per night"
@@ -659,6 +696,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Telephone"
             color="primary"
             value="s"
@@ -678,6 +716,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Safe"
             color="primary"
             value="s"
@@ -697,6 +736,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Baby gate"
             color="primary"
             value="s"
@@ -717,6 +757,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Fax"
             color="primary"
             value="s"
@@ -761,6 +802,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Television"
             color="primary"
             value="s"
@@ -796,6 +838,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Toys"
             color="primary"
             value="s"
@@ -816,6 +859,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Books"
             color="primary"
             value="s"
@@ -836,6 +880,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Video Library"
             color="primary"
             value="s"
@@ -856,6 +901,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Foosball"
             color="primary"
             value="s"
@@ -876,6 +922,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Satellite|Cable"
             color="primary"
             value="s"
@@ -896,6 +943,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Games"
             color="primary"
             value="s"
@@ -1096,6 +1144,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Beach Charts"
             color="primary"
             value="s"
@@ -1131,6 +1180,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Free pit"
             color="primary"
             value="s"
@@ -1148,8 +1198,9 @@
             hide-details
           ></v-checkbox>
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
           <v-checkbox
+            style="margin-left:10rem"
             label="Beech Towels"
             color="primary"
             value="s"
@@ -1169,6 +1220,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Dock/Patio"
             color="primary"
             value="s"
@@ -1182,8 +1234,9 @@
         <v-col sm="4" md="4">
           
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
          <v-text-field
+           style="margin-left:10rem"
          dense
                outlined
             label="Amount per night"
@@ -1204,6 +1257,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Lawn|Garden"
             color="primary"
             value="s"
@@ -1222,8 +1276,9 @@
             class="text-feild"
           ></v-text-field>
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
          <v-text-field
+           style="margin-left:10rem"
          dense
                outlined
             label="Amount per night"
@@ -1243,8 +1298,9 @@
             hide-details
           ></v-checkbox>
         </v-col>
-        <v-col sm="4" md="4">
+        <v-col sm="4" md="6">
           <v-checkbox
+            style="margin-left:10rem"
             label="Outdoor play area"
             color="primary"
             value="s"
@@ -1280,6 +1336,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Bicycles"
             color="primary"
             value="s"
@@ -1300,6 +1357,7 @@
         </v-col>
         <v-col sm="4" md="4">
           <v-checkbox
+            style="margin-left:10rem"
             label="Boat"
             color="primary"
             value="s"
