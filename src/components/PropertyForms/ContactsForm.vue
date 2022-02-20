@@ -1,4 +1,7 @@
 <template>
+<div>
+  <v-card class="elevation-5">
+    <v-card-text>
     <div>
         <div class="heading mt-3"> Contact owner role</div>
         <div>
@@ -15,7 +18,7 @@
               <v-select class="mb-0" dense small :items="items" label="Cost" outlined></v-select>
           </div>
       
-        <v-btn class="ml-5 mt-2" color="primary" dense small rounded>Add new contact</v-btn>
+        <v-btn class="ml-5 mt-2" outlined dense small rounded color="#2196F3">Add new contact</v-btn>
         </div>
         </div>
         <div class="mt-5">
@@ -132,7 +135,7 @@
           color="red darken-3"
           value="s"
           hide-details
-          class="ml-14"
+          style="margin-left:15rem"
         ></v-checkbox>
       </div>
       <div class="d-flex ml-3 ">
@@ -147,7 +150,7 @@
           color="red darken-3"
           value="s"
           hide-details
-          class="ml-16"
+          style="margin-left:15.5rem"
         ></v-checkbox>
       </div>
       <div class="d-flex ml-3 ">
@@ -162,7 +165,7 @@
           color="Hungarian"
           value="s"
           hide-details
-          class="ml-8"
+          style="margin-left:13.5rem"
         ></v-checkbox>
       </div>
       <div class="d-flex ml-3 ">
@@ -177,7 +180,7 @@
           color="Turkish"
           value="s"
           hide-details
-          class="ml-12"
+          style="margin-left:14.5rem"
         ></v-checkbox>
       </div>
       <div class="d-flex ml-3 ">
@@ -192,7 +195,7 @@
           color="Indonesian"
           value="s"
           hide-details
-          class="ml-16"
+           style="margin-left:15.5rem"
         ></v-checkbox>
       </div>
       <div class="d-flex ml-3 ">
@@ -207,7 +210,7 @@
           color="red darken-3"
           value="s"
           hide-details
-          class="ml-16"
+           style="margin-left:15.5rem"
         ></v-checkbox>
       </div>
       <div class="d-flex ml-3 ">
@@ -222,7 +225,7 @@
           color="red darken-3"
           value="s"
           hide-details
-          class="ml-11"
+           style="margin-left:14.5rem"
         ></v-checkbox>
       </div>
       <div class="d-flex ml-3 ">
@@ -237,7 +240,7 @@
           color="red darken-3"
           value="s"
           hide-details
-          class="ml-16"
+           style="margin-left:16rem"
         ></v-checkbox>
       </div>
       <div class="d-flex ml-3 ">
@@ -252,7 +255,7 @@
           color="red darken-3"
           value="s"
           hide-details
-          class="ml-9"
+         style="margin-left:14rem"
         ></v-checkbox>
       </div>
       <div class="d-flex ml-3 ">
@@ -267,7 +270,7 @@
           color="red darken-3"
           value="s"
           hide-details
-          class="ml-12"
+          style="margin-left:15rem"
         ></v-checkbox>
       </div>
       <div class="d-flex ml-3 ">
@@ -282,7 +285,7 @@
           color="red darken-3"
           value="s"
           hide-details
-          class="ml-12"
+          style="margin-left:15rem"
         ></v-checkbox>
       </div>
       <div class="d-flex ml-3 ">
@@ -297,7 +300,7 @@
           color="red darken-3"
           value="s"
           hide-details
-          class="ml-10"
+          style="margin-left:14.5rem"
         ></v-checkbox>
       </div>
       <div class="d-flex ml-3">
@@ -319,6 +322,9 @@
         </div>
          
     </div>
+    </v-card-text>
+  </v-card>
+</div>
 </template>
 <script>
   export default {
