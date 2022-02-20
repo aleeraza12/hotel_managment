@@ -1,4 +1,9 @@
 <template>
+<div>
+  <v-card class="elevation-5">
+    <v-card-text>
+
+   
     <div>
         <div class="heading mt-2 mb-5">
             Rooms and spaces
@@ -232,6 +237,9 @@
     </v-expansion-panel>
          </v-expansion-panels>   
     </div>
+     </v-card-text>
+  </v-card>
+</div>
 </template>
 
 <script>
