@@ -1,5 +1,7 @@
 <template>
   <div>
+    <v-card class="elevation-5">
+      <v-card-text>
     <div class="heading pa-5">Property Location</div>
     <div class="sub-heading pt-8 pl-5">Address</div>
     <div class="sub-heading pt-2 pl-5">
@@ -244,6 +246,8 @@
               outlined
               label="Backs to the mountains"
               class="text-feild"
+              dense
+              hide-details
             ></v-text-field>
           </v-col>
         </v-row>
@@ -777,6 +781,8 @@
         </div>
       </div>
     </div>
+      </v-card-text>
+    </v-card>
   </div>
 </template>
 <script>
