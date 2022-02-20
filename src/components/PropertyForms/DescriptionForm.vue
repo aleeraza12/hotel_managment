@@ -1,11 +1,14 @@
 <template>
     <div>
+      <v-card class="elevation-5">
+        <v-card-text>
+    <div>
         <div class="heading mt-5">Property description</div>
         <div class="d-flex">
             <v-icon color="primary mr-5" >mdi-information</v-icon>
             <div class="sub-heading ma-3" style="width:50%;text-align:justify">{{text}}</div>
         </div>
-        <div class="card-title mt-5 mb-5" style="color:blue">view partners update</div>
+        <div class="card-title ml-2 mt-5 mb-5"  style="color:#2196F3">view partners update</div>
         <div>
            <div>
            <v-text-field
@@ -83,6 +86,9 @@
     </div>
     
           </div>
+    </div>
+     </v-card-text>
+      </v-card>
     </div>
 </template>
 <script>
