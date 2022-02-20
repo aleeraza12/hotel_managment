@@ -1,5 +1,7 @@
 <template>
-  <div class="pa-10">
+  <div >
+    <v-card class="elevation-5">
+      <v-card-text>
     <div class="heading">
       Enhanced cleaning practices
     </div>
@@ -197,6 +199,8 @@
             class="text-feild"
           ></v-text-field>
          </div>
+         </v-card-text>
+    </v-card>
   </div>
 </template>
 <script>
