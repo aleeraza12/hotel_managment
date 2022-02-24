@@ -94,6 +94,14 @@ const router = new VueRouter({
             title: "Base Rates and Discounts",
           },          
         },
+        {
+          path: "/Listings",
+          name: "Listings",
+          component: () => import("/src/components/PropertyListings.vue"),
+          meta: {
+            title: "Property Listings",
+          },          
+        },
       ],
     },
   

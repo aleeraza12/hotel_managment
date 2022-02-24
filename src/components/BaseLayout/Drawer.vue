@@ -2,124 +2,163 @@
   <div>
     <v-app class="position-relative">
       <!-- Chevron Icon -->
-      <v-navigation-drawer
-        app
-        v-model="drawer"
-        disable-route-watcher
-        permanent
-        >
-        <v-card
-          width="256"
-          class="rounded-0 h-120 overflow-hidden"
-        >
+      <v-navigation-drawer app v-model="drawer" disable-route-watcher permanent>
+        <v-card width="256" class="rounded-0 h-120 overflow-hidden">
           <!-- Moody Logo -->
-          <div
-            class="d-flex justify-center align-center"
-            style="height: 70px"
-          >
+          <div class="d-flex justify-center align-center" style="height: 60px">
             <img
               v-if="getSidebarMini"
-              src="../../assets/download (1).png"
-              height="120px"
-              width="120px"
-             
+              src="../../assets/vrbo.svg"
+              width="110px"
               alt="logo"
             />
-            <img
-              v-if="!getSidebarMini"
-              height="40px"
-              width="100px"
-            
-              alt="moody"
-              class="mx-15"
-            />
           </div>
+          <v-divider
+            class="mt-0"
+            style="color: rgb(255 255 255 / 70%)"
+          ></v-divider>
           <!------Render Left Pannel List---->
           <div
             id="sidebar-list"
-            class="mt-10 pointer y-scroll"
-            style="height: 82vh"
+            class="mt-10 pointer"
+            style="height: 80vh"
             v-if="links != ''"
           >
-           <v-list>
-        <v-divider
-        ></v-divider>
-            <v-list-item
-              class="d-flex align-center pl-4 nav-hover"
-              :class="titleName == link.tabName ? 'selected-route' : ''"
-              id="left-nav-listitem"
-              v-for="(link, i) in links"
-              :key="i"
-              router
-              :to="link.route"
-            >
-              <!-- Sidebar Icons -->
-              <div :id="link.icon">
-                <v-icon
-                  class="mr-7 py-4"
-                  :color="titleName == link.tabName ? 'blue' : 'black'"
-                  v-text="link.icon"
-                  size="25"
-                ></v-icon>
-              </div>
-              <!-- Sidebar Text -->
-              <div v-show="!getSidebarMini || drawer" id="left-nav-list-text">
-                <span
-                  class="text-capitalize body-2 font-weight-bold"
-                  :class="titleName == link.tabName ? 'selected-tab': ''"
-                  v-if="link.text != 'Logout'"
-                >
-                  {{ link.text }}
-                    <v-chip v-if="link.tabName=='Performance'" class="ml-5" x-small color="primary">
+            <v-list>
+              <v-list-item
+                class="d-flex align-center pl-4 nav-hover"
+                :class="titleName == link.tabName ? 'selected-route' : ''"
+                id="left-nav-listitem"
+                v-for="(link, i) in links"
+                :key="i"
+                router
+                :to="link.route"
+              >
+                <!-- Sidebar Icons -->
+                <div :id="link.icon">
+                  <v-icon
+                    class="mr-7 py-4"
+                    :color="titleName == link.tabName ? 'blue' : 'black'"
+                    v-text="link.icon"
+                    size="25"
+                  ></v-icon>
+                </div>
+                <!-- Sidebar Text -->
+                <div v-show="!getSidebarMini || drawer" id="left-nav-list-text">
+                  <span
+                    class="text-capitalize body-2 font-weight-bold"
+                    :class="titleName == link.tabName ? 'selected-tab' : ''"
+                    v-if="link.text != 'Logout'"
+                  >
+                    {{ link.text }}
+                    <v-chip
+                      v-if="link.tabName == 'Performance'"
+                      class="ml-5"
+                      x-small
+                      color="primary"
+                    >
                       New
-                </v-chip>
-              
-                    <v-chip v-if="link.tabName=='LocalLaws'" class="ml-5" x-small color="primary">
+                    </v-chip>
+
+                    <v-chip
+                      v-if="link.tabName == 'LocalLaws'"
+                      class="ml-5"
+                      x-small
+                      color="primary"
+                    >
                       Beta
-                </v-chip>
-                </span>
-              </div>
-              <v-spacer> </v-spacer>
-            </v-list-item>
-               <v-divider ></v-divider>
-           </v-list>
+                    </v-chip>
+                  </span>
+                </div>
+                <v-spacer> </v-spacer>
+              </v-list-item>
+              <v-divider></v-divider>
+            </v-list>
 
             <!-- Logout -->
           </div>
         </v-card>
       </v-navigation-drawer>
+      <v-card class="overflow-hidden">
+        <v-app-bar absolute color="white">
+          <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-app-bar
-        app
-        class="app-bar elevation-0 border-bottom"
-        :class="isMapModalSet ? 'shadow-app-bar' : ''"
-      >
-        <!-- Hamburger menu (for xs-screens only)-->
-        <v-app-bar-nav-icon
-          id="admin-hameburger-icon"
-          class="black--text"
-          @click="drawer = !drawer"
-          v-if="$vuetify.breakpoint.xs"
-        ></v-app-bar-nav-icon>
-        <v-icon
-          size="30"
-          color="black"
-          class="mr-1"
-          v-if="$route.path == '/MessageArea'"
-          >mdi-headset-dock</v-icon
+          <v-toolbar-title></v-toolbar-title>
+
+          <v-spacer></v-spacer>
+          <v-menu offset-y>
+            <template v-slot:activator="{ on, attrs }">
+              <div>
+              Select a Property
+                <v-btn icon class="ml-n3">
+                  <v-icon v-bind="attrs" v-on="on">mdi-chevron-down</v-icon>
+                </v-btn>
+              </div>
+            </template>
+            <v-list>
+              <v-list-item
+                link
+                v-for="(item, index) in desserts"
+                :key="index"
+              >
+                <v-list-item-title
+                  class="pointer font-weight-regular "
+                  style="font-size: 14px;color: #7b7bd6"
+                  
+                  @click="goToListings(item.title)"
+                  >{{ item.text1 }}
+                  <div style="font-size: 12px;color:black" class="mt-1">{{item.id}}</div>
+                  </v-list-item-title
+                >
+              </v-list-item>
+            </v-list>
+          </v-menu>
+
+          <v-btn icon class="mr-2">
+            <v-icon size="22">mdi-bell</v-icon>
+          </v-btn>
+
+          <v-menu offset-y>
+            <template v-slot:activator="{ on, attrs }">
+              <div>
+                My Account
+                <v-btn icon class="ml-n3">
+                  <v-icon v-bind="attrs" v-on="on">mdi-chevron-down</v-icon>
+                </v-btn>
+              </div>
+            </template>
+            <v-list>
+              <v-list-item
+                link
+                v-for="(item, index) in Dropdownitems"
+                :key="index"
+              >
+                <v-list-item-title
+                  class="pointer"
+                  @click="goToListings(item.title)"
+                  >{{ item.title }}</v-list-item-title
+                >
+              </v-list-item>
+            </v-list>
+          </v-menu>
+          <div>
+            Help
+            <v-btn icon class="ml-n3">
+              <v-icon>mdi-chevron-down</v-icon>
+            </v-btn>
+          </div>
+        </v-app-bar>
+        <v-sheet
+          id="scrolling-techniques-7"
+          class="overflow-y-auto"
+          max-height="60"
         >
-        <v-toolbar-title id="admin-rightpannel-header-title">{{
-          
-        }}</v-toolbar-title>
-        <v-spacer></v-spacer>
-        <div class="mb-0 pb-0">
-          <v-icon class="mr-3">mdi-bell</v-icon>
-          <span>My Account</span><v-icon class="ml-1 mr-5">mdi-chevron-down</v-icon>
-          Help<v-icon class="ml-1 mr-5">mdi-chevron-down</v-icon>
-        </div>
-      </v-app-bar>
+          <v-container style="height: 1500px"> </v-container>
+        </v-sheet>
+      </v-card>
+
       <v-main id="admin-right-pannel">
-        <v-container >
+        <v-container>
           <!-- If using vue-router -->
           <router-view :key="$route.fullPath"></router-view>
         </v-container>
@@ -131,17 +170,79 @@
 import { mapGetters } from "vuex";
 import { eventBus } from "@/main";
 export default {
-  components: {
-   
-  },
+  components: {},
   data() {
     return {
       isMapModalSet: false,
       mini_variant: this.$vuetify.breakpoint.xs ? false : true,
       showable_links: [],
+        desserts: [
+        {
+          name: "home.jpg",
+          text1: "Mountain Shadow Retreat",
+          id: "Vrbo 163231",
+          plan: "Annual Subscription",
+          status: "Expires At 9/12/2022",
+          state: "Manage",
+        },
+        {
+          name: "home1.jpg",
+          text1: "Mountain Shadow Retreat",
+          id: "Vrbo 163231",
+          plan: "Annual Subscription",
+          status: "Expires At 9/12/2022",
+          state: "Manage",
+        },
+        {
+          name: "home2.jpg",
+          text1: "Mountain Shadow Retreat",
+          id: "Vrbo 163231",
+          plan: "Annual Subscription",
+          status: "Expires At 9/12/2022",
+          state: "Manage",
+        },
+        {
+          name: "home.jpg",
+          text1: "Mountain Shadow Retreat",
+          id: "Vrbo 163231",
+          plan: "Annual Subscription",
+          status: "Expires At 9/12/2022",
+          state: "Manage",
+        },
+        {
+          name: "home1.jpg",
+          text1: "Mountain Shadow Retreat",
+          id: "Vrbo 163231",
+          plan: "Annual Subscription",
+          status: "Expires At 9/12/2022",
+          state: "Manage",
+        },
+        {
+          name: "home2.jpg",
+          text1: "Mountain Shadow Retreat",
+          id: "Vrbo 163231",
+          plan: "Annual Subscription",
+          status: "Expires At 9/12/2022",
+          state: "Manage",
+        },
+        {
+          name: "home.jpg",
+          text1: "Mountain Shadow Retreat",
+          id: "Vrbo 163231",
+          plan: "Annual Subscription",
+          status: "Expires At 9/12/2022",
+          state: "Manage",
+        },
+      ],
       // loggedInUserDetail: JSON.parse(
       //   localStorage.getItem("loggedInUserDetail")
       // ),
+      Dropdownitems: [
+        { title: "Account Settings" },
+        { title: "My properties" },
+        { title: "Add new property" },
+        { title: "Sign Out" },
+      ],
       titleName: "",
       drawer:
         this.$vuetify.breakpoint.name == "md" ||
@@ -196,7 +297,7 @@ export default {
           icon: "mdi-home",
           text: "Property",
           tabName: "Property",
-          route: "/Property",
+          route: "/Listings",
           color: "black",
         },
         {
@@ -206,21 +307,16 @@ export default {
           route: "/LocalLaws",
           color: "black",
         },
-  
       ],
     };
   },
   computed: {
-    ...mapGetters([
-      "getSidebarMini",
-      
-    ]),
+    ...mapGetters(["getSidebarMini"]),
     breakpoint() {
       return this.$vuetify.breakpoint.name;
     },
   },
-  created() {
-  },
+  created() {},
   watch: {
     breakpoint(value) {
       if (value == "md" || value == "sm" || value == "xs") {
@@ -231,14 +327,14 @@ export default {
   },
   updated() {
     for (let i in this.links) {
-        if(this.$route.name == 'Admin'){
-         this.titleName = 'Dashboard'
+      if (this.$route.name == "Admin") {
+        this.titleName = "Dashboard";
       }
       if (this.links[i].route == "/" + this.$route.name) {
         this.titleName = this.links[i].tabName;
       }
     }
-     //if internet is not connected
+    //if internet is not connected
     if (navigator.onLine === false) {
       eventBus.$emit("snackbarMsg", {
         message: "No internet connection",
@@ -247,6 +343,11 @@ export default {
     }
   },
   methods: {
+    goToListings(rout) {
+      console.log(rout, "eeeee");
+      if (rout == "Add new property") this.$router.push("Property");
+      else this.$router.push("Listings");
+    },
     /**
      * @Description
      * this function is used to toogle sidebar
@@ -274,8 +375,7 @@ export default {
      * @param (link, titleName, index)
      * @return void
      */
-    
-    
+
     /**
      * @Description
      * this function is used to show the name in top app bar
@@ -338,16 +438,28 @@ export default {
   left: 40px !important;
 }
 .border-bottom {
-  border-bottom: 1px solid rgb(200, 200, 200);
+  border-bottom: 1px solid gray !important;
   background-color: transparent !important;
+  overflow-y: hidden !important;
 }
 .shadow-app-bar {
   background-color: rgb(0 0 0 / 75%) !important;
 }
-.selected-tab{
-  color: #2196F3 !important;
+.selected-tab {
+  color: #2196f3 !important;
 }
-.selected-route{
-  border-left: 5px solid #2196F3;
+.selected-route {
+  border-left: 5px solid #2196f3;
+}
+.pointer {
+  cursor: pointer !important;
+}
+</style>
+<style>
+.v-main__wrap {
+  padding-top: 20px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  background: #a3a3a321 !important;
 }
 </style>

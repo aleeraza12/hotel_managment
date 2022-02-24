@@ -7,45 +7,59 @@
           class=""
           divider=">"
           color="blue"
-
         ></v-breadcrumbs>
-        
-        
-      <v-menu offset-y>
-      <template v-slot:activator="{ on, attrs }">
-       <div class="pl-3 pr-3 pt-0 mt-3" style="border:1px solid grey ; border-radius:5px;    height: 30px;
-    font-size: 12px;"> Show or hide 
-        <v-icon class="mt-1"  v-bind="attrs"
-          v-on="on">mdi-chevron-down</v-icon></div
-        >
-      </template>
-      <v-list>
-        <v-list-item
-          v-for="(item, index) in showAndhideItems"
-          :key="index"
-        >
-          <v-list-item-title class="pointer" @click="goToTabs()">{{ item.title }}</v-list-item-title>
-        </v-list-item>
-      </v-list>
-       </v-menu>
 
-       <v-menu offset-y min-height="20px">
-      <template v-slot:activator="{ on, attrs }">
-       <div class="pl-3 pr-3 pt-0 mt-3 ml-3" style="border:1px solid grey ; border-radius:5px;    height: 30px;
-    font-size: 12px;"> Settings
-        <v-icon class="mt-1"  v-bind="attrs"
-          v-on="on">mdi-chevron-down</v-icon></div
-        >
-      </template>
-      <v-list>
-        <v-list-item
-          v-for="(item, index) in showAndhideItems"
-          :key="index"
-        >
-          <v-list-item-title class="pointer" @click="goToTabs()">{{ item.title }}</v-list-item-title>
-        </v-list-item>
-      </v-list>
-       </v-menu>
+        <v-menu offset-y>
+          <template v-slot:activator="{ on, attrs }">
+            <div
+              class="pl-3 pr-3 pt-0 mt-3"
+              style="
+                border: 1px solid grey;
+                border-radius: 5px;
+                height: 30px;
+                font-size: 12px;
+              "
+            >
+              Show or hide
+              <v-icon class="mt-1" v-bind="attrs" v-on="on"
+                >mdi-chevron-down</v-icon
+              >
+            </div>
+          </template>
+          <v-list>
+            <v-list-item v-for="(item, index) in showAndhideItems" :key="index">
+              <v-list-item-title class="pointer" @click="goToTabs()">{{
+                item.title
+              }}</v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
+
+        <v-menu offset-y min-height="20px">
+          <template v-slot:activator="{ on, attrs }">
+            <div
+              class="pl-3 pr-3 pt-0 mt-3 ml-3"
+              style="
+                border: 1px solid grey;
+                border-radius: 5px;
+                height: 30px;
+                font-size: 12px;
+              "
+            >
+              Settings
+              <v-icon class="mt-1" v-bind="attrs" v-on="on"
+                >mdi-chevron-down</v-icon
+              >
+            </div>
+          </template>
+          <v-list>
+            <v-list-item v-for="(item, index) in showAndhideItems" :key="index">
+              <v-list-item-title class="pointer" @click="goToTabs()">{{
+                item.title
+              }}</v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
       </div>
     </div>
     <div>
@@ -157,20 +171,18 @@
         </v-col>
         <v-col cols="3">
           <div class="justify-end align-end mt-15 mb-2">
-            <v-btn dense small outlined class="pointer">
-            Hide
-            </v-btn>
-            </div>
+            <v-btn dense small outlined class="pointer"> Hide </v-btn>
+          </div>
           <div class="font-weight-bold mb-3">Booking and blocks list</div>
           <div class="d-flex">
             <v-icon small dense color="blue" class="mr-2"> mdi-circle </v-icon>
-       
-               No bookings or block Dec 2021 <br/>No bookings or block Jan 2022
-            
+
+            No bookings or block Dec 2021 <br />No bookings or block Jan 2022
           </div>
           <div class="d-flex">
-            <v-icon small dense color="pink" class="mr-2"> mdi-circle </v-icon>Airbnb Booking
-            Mon, Jan 31 - Tue, feb 1,2022 <br> Mar 2022 , No booking or blocks
+            <v-icon small dense color="pink" class="mr-2"> mdi-circle </v-icon
+            >Airbnb Booking Mon, Jan 31 - Tue, feb 1,2022 <br />
+            Mar 2022 , No booking or blocks
           </div>
         </v-col>
       </v-row>
@@ -197,14 +209,14 @@ export default {
         //  href: 'breadcrumbs_link_2',
       },
     ],
-      showAndhideItems: [
-        { title: 'Base rate and discount' },
-        { title: 'Booking window' },
-        { title: 'Fees' },
-        { title: 'Taxes' },
-        { title: 'Damage Protection' },
-        { title: 'Payment terms' },
-      ],
+    showAndhideItems: [
+      { title: "Base rate and discount" },
+      { title: "Booking window" },
+      { title: "Fees" },
+      { title: "Taxes" },
+      { title: "Damage Protection" },
+      { title: "Payment terms" },
+    ],
     focus: "",
     type: "month",
     typeToLabel: {
@@ -224,8 +236,8 @@ export default {
     this.$refs.calendar.checkChange();
   },
   methods: {
-    goToTabs(){
-      this.$router.push('BaseRates')
+    goToTabs() {
+      this.$router.push("BaseRates");
     },
     viewDay({ date }) {
       this.focus = date;
@@ -294,16 +306,16 @@ export default {
 };
 </script>
 <style scoped>
-.pointer{
-cursor: pointer !important;
+.pointer {
+  cursor: pointer !important;
 }
-
 </style>
 <style>
-.v-breadcrumbs__item{
-  border-bottom : 1px solid grey !important;
+.v-breadcrumbs__item {
+  border-bottom: 1px solid grey !important;
 }
-.theme--light.v-breadcrumbs .v-breadcrumbs__divider, .theme--light.v-breadcrumbs .v-breadcrumbs__item--disabled {
-    color: rgb(76 172 255) !important;
+.theme--light.v-breadcrumbs .v-breadcrumbs__divider,
+.theme--light.v-breadcrumbs .v-breadcrumbs__item--disabled {
+  color: rgb(76 172 255) !important;
 }
 </style>
